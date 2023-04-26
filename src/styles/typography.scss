@@ -1,0 +1,97 @@
+%font_secondary {
+  font-family: $secondary_family;
+}
+
+%font_secondary_bold {
+  @extend %font_secondary;
+  font-weight: 500;
+}
+
+%heading_extra {
+  @extend %font_secondary_bold;
+  font-size: 36px;
+  line-height: 1.44;
+  color: $black;
+}
+
+%heading_large {
+  @extend %font_secondary_bold;
+  font-size: 64px;
+  line-height: 80px;
+
+  @media (max-width: 1199px) {
+    font-size: 52px;
+    line-height: 70px;
+  }
+}
+
+%heading_medium {
+  @extend %font_secondary_bold;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+%heading_regular {
+  @extend %font_secondary_bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+%heading_small {
+  @extend %font_secondary_bold;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+%text_large {
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 700;
+}
+
+%text_medium {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+%text_regular {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+%text_small {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+%button_medium {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: $white;
+}
+
+%text_light {
+  color: $white;
+}
+
+%text_dark {
+  color: $black;
+}
+
+%text_accent {
+  color: $main;
+}
+
+%text_gray3 {
+  color: $gray_3;
+}
+
+%text_gray4 {
+  color: $gray_4;
+}
+
+%text_uppercase {
+  text-transform: uppercase;
+}

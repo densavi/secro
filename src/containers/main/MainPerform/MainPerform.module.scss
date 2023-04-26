@@ -1,0 +1,53 @@
+.container {
+  max-width: $home_container + 30px;
+  width: 100%;
+  margin: auto;
+  padding: 100px 15px;
+
+  @include tablets {
+    padding: 80px 15px;
+  }
+
+  @include phones {
+    padding: 60px 15px;
+  }
+
+  &__text {
+    max-width: 560px;
+    margin-top: 7px;
+    margin-bottom: 52px;
+
+    @include phones {
+      margin-bottom: 30px;
+    }
+  }
+  &__image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    padding: 0 15px;
+
+    @include tablets {
+      margin-bottom: 0;
+    }
+  }
+
+  h2 {
+    @include phones {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__buttons {
+    button {
+      @include phones {
+        padding: 17px 20px;
+
+        &:first-child {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}

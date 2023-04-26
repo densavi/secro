@@ -1,0 +1,39 @@
+@import '~/styles/colors.scss';
+@import '~/styles/typography.scss';
+
+.wrapper {
+  &__input_wrapper {
+    position: relative;
+
+    &_input {
+      padding: 9px 16px;
+      width: 100%;
+      display: flex;
+      border-radius: 8px;
+      transition: all 0.1s;
+      border: 1px solid $gray_scale_92;
+      height: 36px;
+      @extend %text_regular;
+
+      &::placeholder {
+        color: $gray_scale_55;
+      }
+
+      &:hover {
+        border-color: $gray_scale_77;
+      }
+
+      &:active,
+      &:focus {
+        border-color: $main;
+        outline: none;
+      }
+    }
+
+    &_icon {
+      position: absolute;
+      right: 11px;
+      top: 5px;
+    }
+  }
+}

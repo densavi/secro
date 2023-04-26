@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: $gray_scale_95;
+  border-radius: 12px;
+  padding: 32px;
+  align-items: center;
+
+  &__title {
+    margin-top: 5px;
+    margin-bottom: 12px;
+  }
+}

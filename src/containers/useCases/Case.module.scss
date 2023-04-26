@@ -1,0 +1,109 @@
+.Case {
+  &:not(:last-child) {
+    padding-bottom: 79px;
+    margin-bottom: 70px;
+    border-bottom: 1px solid #E6E6E6;
+    @include mobiles {
+      margin-bottom: 90px;
+      padding-bottom: 0;
+      border: 0;
+    }
+  }
+  &__title {
+    color: $main;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: $secondary_family;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 40px;
+    @include mobiles {
+      margin-bottom: 22px;
+    }
+  }
+  &__heading {
+    font-family: $secondary_family;
+    max-width: 675px;
+    width: 100%;
+    font-size: 32px;
+    line-height: 47px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    @include mobiles {
+      font-size: 28px;
+      line-height: 41px;
+    }
+  }
+  &__wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    @include mobiles {
+      display: block;
+    }
+  }
+  &__col_title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000;
+  }
+  &__link {
+    margin-top: 50px;
+    a {
+      font-size: 16px;
+      text-decoration: underline;
+      color: $main;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  &__scenario,
+  &__points,
+  &__solution {
+    max-width: 382px;
+    color: #828282;
+    @media (max-width: 1280px) {
+      padding-right: 30px;
+    }
+    @include mobiles {
+      padding-right: 0;
+      max-width: 100%;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    ul {
+      li {
+        padding-left: 20px;
+        position: relative;
+        &:before {
+          content: '';
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          background: #828282;
+          border-radius: 50%;
+          top: 4px;
+          left: 0;
+        }
+        &:not(:last-child) {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+  &__solution {
+    @media (max-width: 1280px) {
+      padding-right: 0;
+    }
+    @include mobiles {
+      margin-bottom: 0;
+    }
+
+  }
+  &__green {
+    color: $main;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,73 @@
+.wrapper {
+  display: block;
+  position: relative;
+}
+
+.input {
+  position: relative;
+  border: none;
+  letter-spacing: -0.4px;
+  padding: 0 12px 0 0;
+  transition: 0.1s;
+  font-family: $primary_family;
+  color: $black;
+  font-size: 16px;
+  height: 37px;
+  z-index: 1;
+  width: 100%;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid $gray_5;
+  -webkit-text-fill-color: $black;
+  -webkit-opacity: 1;
+
+  &:focus {
+    border-bottom: 1px solid $main;
+    outline: none;
+  }
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  &[type='number'] {
+    -moz-appearance: textfield;
+  }
+  &::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    color: $gray_4;
+    -webkit-text-fill-color: $gray_4;
+  }
+}
+
+.read_only {
+  color: $black;
+  background-color: inherit;
+}
+
+.input_error {
+  border-bottom: 1px solid $error;
+
+  &:focus {
+    border-bottom: 1px solid $error;
+  }
+}
+
+.legend {
+  color: $gray_3;
+  font-size: 14px;
+  padding: 0;
+}
+
+.icon {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  z-index: 1;
+}
+
+.via_cursor {
+  cursor: pointer;
+}

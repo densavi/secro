@@ -1,0 +1,289 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  &_wrapper {
+    padding: 95px 111px 19px;
+    @include tablets {
+      padding: 95px 15px 19px;
+    }
+    @include phones {
+      padding-top: 80px;
+      padding-bottom: 0;
+    }
+  }
+
+  &__wrp {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @include mobiles {
+      display: block;
+    }
+  }
+
+  &__item {
+    width: calc(50% - 55px);
+    margin-bottom: 140px;
+    @include tablets {
+      margin-bottom: 100px;
+    }
+    @include mobiles {
+      width: 100%;
+      margin-bottom: 80px;
+    }
+  }
+
+  &__icon {
+    margin-bottom: 32px;
+    img,
+    svg {
+      height: 56px;
+      display: flex;
+    }
+
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 32px;
+    img {
+      max-width: 40px;
+      max-height: 40px;
+      &:not(:first-child) {
+        margin-left: 32px;
+        @media (max-width: 1200px) {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+
+  &__title {
+    font-size: 36px !important;
+    line-height: 1.2 !important;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    @include mobiles {
+      font-size: 28px !important;
+    }
+  }
+
+  &__description {
+    color: #828282;
+  }
+
+  &__body {
+    position: relative;
+    max-width: 1076px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    &_templates {
+      display: flex;
+      margin-left: auto;
+
+      &_step {
+        margin: 150px 13px auto 0;
+      }
+
+      &_info {
+        &_icons {
+          margin-left: 46px;
+        }
+      }
+    }
+
+    &_secure {
+      display: flex;
+
+      &_wrapper {
+        &_icon {
+          margin-left: 23px;
+        }
+
+        &_title {
+          margin-top: 50px !important;
+        }
+      }
+
+      &_step {
+        margin-top: 77px;
+      }
+
+      &_block {
+        margin-top: -30px;
+        display: flex;
+
+        &_step {
+          margin: 180px 31px 0 0;
+        }
+      }
+    }
+
+    &_digital {
+      display: flex;
+      position: relative;
+
+      &_step {
+        margin: 17px 0 auto 90px;
+      }
+
+      &_block {
+        display: flex;
+        margin-top: 71px;
+
+        &_step {
+          margin: 120px 0 0 15px;
+        }
+      }
+
+      &_wrapper {
+        &_title {
+          margin-top: 43px !important;
+        }
+
+        &_icons {
+          margin-left: 78px;
+          position: relative;
+
+          &_sign {
+            position: absolute;
+            top: 102px;
+            left: 80px;
+          }
+        }
+      }
+    }
+
+    &_managers {
+      margin-top: 208px;
+    }
+
+    &_clauses {
+      display: flex;
+      margin: 24px 0 auto auto;
+
+      &_info {
+        display: flex;
+        flex-direction: column;
+
+        &_icons {
+          margin: 0 auto;
+        }
+
+        &_title {
+          margin-top: 43px !important;
+        }
+      }
+
+      &_step {
+        margin: 160px 6px auto 0;
+      }
+    }
+
+    &_bill {
+      display: flex;
+      margin-left: 49px;
+
+      &_wrapper {
+        &_icons {
+          position: relative;
+          margin: auto auto auto 50px;
+
+          &_bill {
+            position: absolute;
+            top: 90px;
+            left: 74px;
+          }
+        }
+
+        &_title {
+          margin-top: 30px !important;
+        }
+      }
+
+      &_block {
+        display: flex;
+        margin-top: -90px;
+        position: relative;
+
+        &_step {
+          position: absolute;
+          right: 30px;
+          bottom: 170px;
+        }
+      }
+
+      &_step {
+        margin: 15px 0 0 -10px;
+      }
+    }
+
+    &_cash {
+      display: flex;
+      position: relative;
+
+      &_step {
+        position: absolute;
+        left: 180px;
+        top: -80px;
+      }
+
+      &_block {
+        display: flex;
+        margin-left: 600px;
+        margin-top: -20px;
+
+        &_step {
+          margin: 175px 2px 0 15px;
+        }
+      }
+
+      &_wrapper {
+        display: flex;
+        flex-direction: column;
+
+        &_icons {
+          margin: auto;
+        }
+
+        &_title {
+          margin-top: 40px !important;
+        }
+      }
+    }
+  }
+}
+
+.step {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  background: rgba(4, 143, 146, 0.1);
+  border-radius: 50%;
+
+  p {
+    font-size: 20px;
+    font-weight: 700;
+    color: $main;
+    margin: auto;
+  }
+}
+
+.title {
+  margin: 70px 0 12px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  color: $gray_3;
+  max-width: 350px;
+}

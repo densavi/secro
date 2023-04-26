@@ -1,0 +1,389 @@
+{
+  "header": {
+    "link1": "Use cases",
+    "link2": "Features",
+    "link3": "How to use",
+    "link4": "Resources",
+    "link5": "Company",
+    "link6": "Contact us",
+    "buttonSignin": "Sign in"
+  },
+  "footer": {
+    "information": "Information",
+    "socials": "Socials",
+    "contacts": "Contact us",
+    "office": "Office"
+  },
+  "mainHero": {
+    "control1": "Improved cashflow",
+    "control2": "Trustable network",
+    "control3": "Secure collaboration",
+    "control4": "Paperless trade",
+    "control5": "Traceable supply chain",
+    "heading-slide1": "Buy and sell commodities quicker and with reduced risk",
+    "heading-slide2": "Eradicate frauds, inefficiencies and exploitation from international trade",
+    "heading-slide3": "Accurately track contractual performances throughout the entire cargo journey ",
+    "heading-slide4": "Digitize bill of ladings, transportation, and sales agreements for higher operational efficiency",
+    "heading-slide5": "Keep suppliers accountable and compliant with supply chain labor regulations"
+  },
+  "mainServices": {
+    "subtitle": "End-to-end paperless workflows",
+    "title": "Our services",
+    "text": "All of our services come integrated on the Secro cloud-based platform: different teams and organizations can use them to securely collaborate and efficiently perform all the functions needed to negotiate, sign, finance, execute and audit the most complex cross-border supply chain operations. We Increase trust, reduce risk and make global trade more equitable for everyone.",
+    "button": "View all features",
+    "listButton": "Learn more",
+    "list1": {
+      "title": "e-Bill of Lading",
+      "text": "Secro e-Bill (TM) is a new-generation electronic bill of lading. It allows parties to perform all the functions of a paper bill of lading with increased speed, lower cost and unmatched security without the need of a private agreement"
+    },
+    "list2": {
+      "title": "Supply Chain Financing",
+      "text": "Secro enables access to competitive financing solutions with a streamlined, digital process that is cheaper and more flexible than traditional bank-based relationships\n"
+    },
+    "list3": {
+      "title": "Notary",
+      "text": "The Secro notary service allows to instantaneously verify the authenticity and latest version of every document generated through the Secro application, by simply scanning a QR code "
+    },
+    "list4": {
+      "title": "COLLABORATE WITHIN THE PLATFORM",
+      "text": "Share within you organization and with your trusted trading partners information and documents to expedite your transactions, while still protecting confidentiality and data security"
+    },
+    "list5": {
+      "title": "Treasury",
+      "text": "Secro enables you to send and receive payments in a safer way, thanks to the most advanced KYC, KYB, AML and bank account verification technologies. We also offer Money Escrow services for Claims and S&P transactions"
+    },
+    "list6": {
+      "title": "Claims arbitration",
+      "text": "Secro allows parties to manage claims and litigation with clear timelines and legal costs. We help you to negotiate, mediate and arbitrate claims of any size thanks to clear, pre-agreed rules, automated workflows and our experienced legal team"
+    }
+  },
+  "mainPerform": {
+    "title": "END-TO-END CONTRACT DELIVERY",
+    "text": "Secro complements and augments your existing ERPs and TMS by managing processes and protecting critical business data that today are left on paper or administered via off-line systems. This will give you unprecedented visibility and control over your financial, commercial and legal workstreams."
+  },
+  "mainDifference": {
+    "title": "Why We are different",
+    "slide1": {
+      "title": "Technology",
+      "text": "Secro uses the most advanced technology to vet customers, protect data, prevent frauds, detect suspicious behaviors and ensure maximum confidentiality. We use bank-grade, state of the art KYC, KYB and AML verification."
+    },
+    "slide2": {
+      "title": "Collaborative network",
+      "text": "Secro provides a secure, vetted network that trading partners can join for free. The onboarding process is seamless and terms and conditions are straightforward. Secro e-bill of lading is legally recognized globally and does not require cumbersome, upfront private agreements, substantially simplifying compliance and expediting critical business flows between traders, carriers, banks and their customers"
+    },
+    "slide3": {
+      "title": "Trust",
+      "text": "Secro is built in full compliance with the latest digital trade laws and regulations. We built a technology that fully meets the requirements of international regulatory bodies, insurance carriers and trade associations"
+    }
+  },
+  "mainVideo": {
+    "title": "Video overview",
+    "text": "Video overview of how Secro transforms cross-border trade"
+  },
+  "mainPartnersCustomers": {
+    "title": "SECRO TRUSTED NETWORK",
+    "text": "Secro uses the most advanced technology to vet customers, protect data, prevent frauds, detect suspicious behaviors and ensure maximum confidentiality."
+  },
+  "useCases": {
+    "title": "Use cases",
+    "text": "Secro helps organizations and individuals to solve complex challenges in a collaborative, cost-efficient way. The flexibility and user-friendliness of our technology allows quick adoption and scalability across multiple industries and use cases",
+    "column1Title": "Use cases",
+    "column2Title": "Secro added value",
+    "case1": {
+      "caseTitle": "paperless e-Bill of Lading",
+      "caseText": "Paper bills are expensive and increase legal and operational risk. They are not flexible enough to support time-sensitive commercial and operational processes, such as changes of destination or in-transit sales, and thereby preclude many business opportunities. Secro e-BL ™ is a new-generation digital bill of lading that overcomes the inefficient and costly limitations of paper bills.",
+      "result1Title": "Operate e-BL securely",
+      "result1Text": "Draft, sign, release, split, endorse and transfer digital documents of title securely via Secro Vault ™. Thanks to Secro compliance with the most advanced legislations on digital negotiable instruments.",
+      "result2Title": "Frictionless trade",
+      "result2Text": "Secro e-BL ™ does not require private agreements and restrictive covenants. Shippers, carriers, consignees can safely transfer cargo ownership and other rights using our web application, from anywhere in the world, with few clicks at competitive costs."
+    },
+    "case2": {
+      "caseTitle": "Contract lifecycle management",
+      "caseText": "Emails, phone calls, paper documents or siloed software are the way companies compose, negotiate and sign contracts. Manual processes leave room for errors, unsecure communication tools can lead to data breach and fraud, and shipping physical documents is inefficient, slow and expensive.",
+      "result1Title": "Collaborate effectively",
+      "result1Text": "Secro enables globally dispersed teams to cooperate securely and effectively to execute international transactions. Negotiate and sign securely in a collaborative environment that allows parties to quickly and safely exchange information and supporting documents.",
+      "result2Title": "Keep your business safe",
+      "result2Text": "Set up approval workflows to ensure proper due diligence is in place and mitigate human errors. Store drafts and executed documents on the cloud, keeping critical business information secure and confidential with military-grade level protection."
+    },
+    "case3": {
+      "caseTitle": "Contract performance automation",
+      "caseText": "Parties privy to multiple contracts have no organized and automated way to check that all the boxes have been ticked for the execution of a transaction. Manual workflows and unstandardized procedures make it difficult to figure out financial, legal and contractual dependencies between transportation contracts, sales & purchase agreement and bills of lading. Errors, underperfomances and frauds often go unnoticed.",
+      "result1Title": "Smart contract execution",
+      "result1Text": "Secro translate contracts into smart workflows, where a sequence of well-defined, measurable events must be executed and then validated in order to trigger the fulfilment of contractual clauses. Dependencies between multiple documents and transactions are automatically detected by Secro allowing for more informed decision making and an increased awareness of any potential legal or operational issues. Our secure, online collaboration platform then allows stakeholders to confirm the execution of events, as well as upload  documentation to authenticate this.",
+      "result2Title": "Quick problem solving",
+      "result2Text": "No error goes unnoticed thanks to intuitive interface and instant email notifications. Our secure in-app chat allows a direct communication channel between parties to solve any errors or possible underperfomances quickly. The entire process happens on our secure web application, reducing the risk of data breach and fraud."
+    },
+    "case4": {
+      "caseTitle": "Auding and compliance ",
+      "caseText": "Companies are required to capture,  store and audit an increasing amount of data and documentation to comply with international regulations such as IMO2023, initiatives like the Climate Pledge or domestic laws such as Germany’s Mandatory human rights due diligence law. This process is extremely expensive and time consuming unless companies implement an automated process to collect the required data when they engage in commercial transactions. Moreover, the process is complicated further by the fact that the format of data and documents is usually inconsistent and not suitable to automated auditing and analysis processes.",
+      "result1Title": "Performance monitoring",
+      "result1Text": "When a contract of any kind is executed on Secro, our technology automatically captures all of the data, documentation and action logs critical to achieve a successful audit. Additionally, our collaborative platform can be used to evidence compliance with specific laws, regulations and standards during the contract execution phase.",
+      "result2Title": "Keep workflows organized",
+      "result2Text": "Since the process happens automatically, there is no additional workload on the operation teams who are executing the contract. Secro takes care to ask the right questions to your trading partners, customers and suppliers, and safely stores and organises all of the relevant information."
+    },
+    "case5": {
+      "caseTitle": "Claims negotiation, mediation and arbitration",
+      "caseText": "Litigation ensues after almost 5% of cross-border transactions. Legal claims often lead to extensive delays, especially where documents and information is not stored and organised. An award and legal costs can therefore easily reach into the millions of dollars, leading to substantial costs increases for interest on claims principals, and bad debt.",
+      "result1Title": "Pre-agreed arbitration",
+      "result1Text": "Claimants opening a claim on Secro can take advantage of pre-agreed arbitration rules and an automated collection of disclosures and back up documentation. This substantially reduces the time needed to comply with legal processes like discovery, such that an award can be obtained or a settlement can be reached in a shorter time period.",
+      "result2Title": "Claim resolution accelerated",
+      "result2Text": "Our collaborative web application connects claimants with mediators, technical experts, and arbitrators who can be hired to solve disputes at known fees. As a result, legal costs are reduced and claims resolution is accelerated, meaning less cash remains immobilized by litigation."
+    },
+    "case6": {
+      "caseTitle": "Supply chain finance",
+      "caseText": "The connection between businesses and capital providers is often strained and  inefficient. It is difficult even for established companies to gain the trust of lenders, especially when penetrating new markets. This is because traditional guarantees like letters of credit are not always reliable, and banks dispute their validity in case of a borrower’s default, creating big risks for trading partners. On the other hand, financial entities often struggle to collect all the financial disclosures and insights they need to lend capital. As a result, they either have to absorb the risk and charge a higher interest rate or give up on lending opportunities",
+      "result1Title": "Supply chain finance options for borrowers",
+      "result1Text": "Secro provides an additional layer of connection between lenders and borrowers to increase trust. We achieve this by establishing a robust platform where all the parties privy to a transaction are able to be screened with state of the art KYC, KYB, and AML processes. Additionally, our bank account verification procedure confidentially gains up-front financial disclosures indicative of a company's financial health. This provides lenders with a better way to validate information and assess potential customers, and borrowers with increased access to competitive sources of supply chain financing.",
+      "result2Title": "Transparency for lenders",
+      "result2Text": "Secro enables parties to spot red flags and potential frauds at every step of the contract execution process (such as double consignments or buyer-seller collusions). Moreover, our screening tools and contract monitoring capabilities establish individual and organizational accountability, deterring fraudulent behaviors. Above all, by establishing a transparent yet highly confidential way to surface credit-related information, we foster a network where only trustable and financially reliable entities are allowed to contract with trading partners and lenders."
+    },
+    "case7": {
+      "caseTitle": "Treasury: Global payments and escrow",
+      "caseText": "Both in cash-on-delivery and open account scenarios, companies are using archaic and unreliable ways to internally coordinate and then execute payments. Finance, operations and accounting teams frequently use unsecured emails, chat applications and phone calls between them and with external parties (banks, customers, providers). This disconnected, unsecure and uncoordinated process creates a massive risk for human error and exposes companies to phishing, reverse social engineering and scamming attacks. And once payment is made to an incorrect or fraudulent party, there is a very low likelihood of recovery.",
+      "result1Title": "Safer financial workflows",
+      "result1Text": "Secro brings all the loose ends together on a secure platform where multiple teams across different organizations can engage in trustworthy communications. Encrypted chatrooms, secure document repositories, and approval workflows allow parties to interact effectively to reduce the risk of human errors and fraud. Visibility over the actual execution of contractual clauses helps synchronize the work of financial, accounting and operation teams, so the decision to trigger a payment is taken only when all the boxes are ticked.",
+      "result2Title": "Payments execution",
+      "result2Text": "Customers can also connect their bank account to Secro's global payment service, allowing them to execute payments in multiple currencies straight on our secure platform. This eliminates potential sources of data leaks, phishing and fraud. Finally, a money escrow service is offered to facilitate cash-on-delivery transactions."
+    }
+  },
+  "requestDemo": {
+    "title": "REQUEST DEMO",
+    "description": "Please fill the form below and our team will be in touch shortly to schedule a demo.",
+    "success": {
+      "title": "Dear",
+      "text": "Thanks for your interest in Secro. We confirm we received your request and one member of our team will be in touch shortly to schedule a demo."
+    }
+  },
+  "contactSales": {
+    "title": "CONTACT SALES",
+    "description": "Of course, deeply understanding your users and their needs is the foundation of any good product.",
+    "success": "Message was successfully sent"
+  },
+  "common": {
+    "form": {
+      "label": {
+        "fullName": "Full name",
+        "company": "Company",
+        "companyWebsite": "Company website",
+        "businessEmail": "Business E-mail",
+        "jobRole": "Job role",
+        "employees": "Employees",
+        "country": "Country",
+        "phone": "Phone",
+        "name": "Name",
+        "e-mail": "E-mail",
+        "title": "Title",
+        "message": "Message"
+      },
+      "placeholder": {},
+      "allFieldsRequired": "All fields are required"
+    },
+    "button": {
+      "close": "Close",
+      "cancel": "Cancel",
+      "submitRequest": "Submit request",
+      "requestDemo": "Request demo",
+      "contactSales": "Contact sales"
+    },
+    "bottomBanner": {
+      "haveQuestions": "Have any questions?",
+      "letsDiscuss": "Let’s discuss",
+      "contactUs": "Contact us",
+      "happyDiscuss": "We are happy to discuss it",
+      "aboutFeatures": "Want to know more about features?",
+      "vision": "Our vision is to",
+      "globalTrade": "Enable frictionless global trade",
+      "letsTalk": "Lets talk about it",
+      "featuresTitle": "Have any questions?",
+      "empty": " "
+    },
+    "readBio": "Read bio",
+    "errors": {
+      "default": "Something went wrong. Please try again later"
+    }
+  },
+  "features": {
+    "title": "Features",
+    "description": "Actual events, evidence of performance and financial flows are all synchronized.",
+    "templates": {
+      "title": "Customizable templates",
+      "description": "Secro provides parties with customizable templates for fast and smart contract creation."
+    },
+    "secure": {
+      "title": "Secure online collaboration",
+      "description": "Legal and commercial teams  collaborate securely online, and cooperate closely with operations teams, through advanced tools such as a secure chat function and process flows automation."
+    },
+    "digital": {
+      "title": "Digitally sign contracts",
+      "description": "Robust KYC, KYB, AML services, bank-grade data security and encrypted storage provide a secure platform where deals can be executed efficiently."
+    },
+    "clauses": {
+      "title": "Digital clauses",
+      "description": "Contract Managers can easily translate legal clauses into digital workflows, and assign individual entities to complete specific steps that leads to the fulfilment of the contract. Multiple parties can then access Secro to confirm or deny the fulfilment of events like cargo delivery or payments."
+    },
+    "eBill": {
+      "title": "e-Bill of Lading",
+      "description": "For the first time, Secro e-Bill of Lading provides the ability to replicate all the functions of a paper bill of lading in full compliance with a robust legal framework. There is no need for any private agreement or punitive covenants."
+    },
+    "cashFlow": {
+      "title": "Improved cashflow",
+      "description1": "Secro's pre-agreed arbitration rules and online claims management process provide increased certainty over the cost and timeframe of dispute resolution. Secro also connects its customers with insurance providers to increase the protection of your investment into sales and purchase or service agreements.",
+      "description2": "Secro Treasury allows secure global payments and provides an escrow service to ensure more visibility and control of transactions."
+    }
+  },
+  "company": {
+    "title": "ENABLING FRICTIONLESS GLOBAL TRADE",
+    "description": "Secro fosters, builds and secures trust between trading partners by creating opportunities to grow commercial relationships.",
+    "story": {
+      "title": "OUR STORY",
+      "description1": "Secro came from a pragmatic idea three maritime industry veterans had in 2016 who simply thought, “there must be a better way.” With an ongoing dream and ambition, they assembled a global team of experts in cloud technology, supply chain management, international trade and maritime law, SaaS start-up entrepreneurship, finance and banking, and digital strategy.",
+      "description2": "",
+      "description3": "We are not claiming to be the next disruptive startup and yet, the unparalleled simplicity and intuitiveness of the platform speak for itself. As we focus our time and resources on our customers, the goal continues to remove inefficiency and establish trust between trading partners to facilitate cross-border commerce and financial transactions, while protecting confidentiality as job one.​",
+      "end": "“The current way of doing business cross-border is simply unfair. Too much value is ripped off by middlemen and inefficiency, not to mention the risk of frauds that companies are facing. Secro will change this status quo. Think of what Uber did in the mobility industry and Amazon in retail. Our ambition is to deliver the same level of transparency in the largest industry on earth, making our customers’ business thrive”",
+      "author": "Michele Sancricca, Co-founder and CEO"
+    },
+    "values": {
+      "title": "OUR CORE VALUES",
+      "description": "We believe that our vision could not be achieved without promoting in the first instance a company culture funded on trust, respect and transparency. What brought together our core team, aside from a great vision, is that we all intimately share these tenets:",
+      "rows": {
+        "customer": {
+          "title": "Customers",
+          "description": "We are at the service of our customers"
+        },
+        "resource": {
+          "title": "Resources",
+          "description": "We invest the most of our resources into our associates and their growth"
+        },
+        "community": {
+          "title": "Community",
+          "description": "We support local and underprivileged communities around the world"
+        },
+        "trade": {
+          "title": "Global trade",
+          "description": "We want help making global trade fairer and more transparent"
+        },
+        "technology": {
+          "title": "Technologies",
+          "description": "We want to democratize access to our technologies and services to the benefit of any customer on earth"
+        }
+      }
+    },
+    "planning": {
+      "title": "A UNIQUE COMBINATION OF TECHNOLOGY, LEGAL AND INDUSTRY EXPERTISE",
+      "description1": "We are word-class technology, legal and industry veterans with a unique mix of diversified competences and experiences. What brings us together are professional and personal tiers that we fostered over the years, making Secro a cohesive and passionate team.",
+      "description2": "As we transparently trust and deeply respect each other, so we do with our customers and partners, striving not only to deliver cutting edge technology but above all looking forward to building long-lasting, successful relationships."
+    },
+    "history": {
+      "title": "OUR PAST, PRESENT AND FUTURE",
+      "description": "With the goal of expanding our portfolio of services and growing our business across multiple industries, we are executing on an ambitious roadmap. We see our trajectory making us the leader in cross border trade digitization."
+    },
+    "team": {
+      "title": "SECRO TEAM",
+      "people": {
+        "michele": {
+          "name": "michele sancricca",
+          "role": "CEO and CTO",
+          "bio": "Based in Charleston, SC, former Global CTO for supply chain and logistics for AWS and responsible for the growth of a revenue stream worth $340MM (CAGR +44% YoY), previously Head of Supply Chain Products for Amazon Global Mile with a $275MM P&L responsibility, as well as Director of Digital Transformation for MSC (the largest ocean carrier in the world). {br} {br} Michele has extensive experience in delivering complex projects and technology platforms in the space of global supply chains. He built from scratch and led multiple, successful teams both in public companies and in the military. {br} {br} Michele founded a successful tech-consultancy firm in 2017, Bellatrix Advisors LLC. A Harvard Business School graduate, he also holds an MBA in Shipping and Logistics from the Middlesex University of London and a MS in Naval Science from the Italian Naval Academy. {br} {br} Michele is a retired Lieutenant Commander of the Italian Navy."
+        },
+        "luke": {
+          "name": "Luke Zadkovich",
+          "role": "Board Director",
+          "bio": "Panama-based, Luke is an attorney at waw who co-founded ZFZ, a successful global law firm He brings an extensive network spanning the cross-border trade industry, and in-depth expertise as international commercial lawyer, English solicitor, New York attorney, Australian (NSW) solicitor. {br} {br} Luke holds a Master of Laws (LLM) - International Business Law from the King’s College of London."
+        },
+        "edward": {
+          "name": "Edward Floyd",
+          "role": "Board Director",
+          "bio": "NYC-based, Ed co-founded ZFZ with Luke. He is a commercial litigator with extensive experience representing clients in connection with complex disputes involving maritime transportation, the commodities trading industry, and other international and domestic matters. {br} {br} Ed holds a Juris Doctor degree from Fordham University and a MS from the US Naval Academy. He served as an Officer with the US Marine Corp."
+        },
+        "leonardo": {
+          "name": "Leonardo Ferrisi",
+          "role": "COO",
+          "bio": "New York-based, Leonardo has 20 years of experience as commercial and operational executive in cross border trade and maritime logistics. Currently Global Sales Director with MSC, he previously held the role of Chief Commercial Officer and MD of the Caribbean for Svitzer, a subsidiary of  the Maersk group. He formerly worked as VP of Operations for MSC US.{br}{br} Leonardo graduated from Harvard Business School and he holds a MS in Naval Science from the Italian Naval Academy, being himself a retired IT Navy Lieutenant."
+        },
+        "gregory": {
+          "name": "Gregory Otto",
+          "role": "CFO and Chief Investment Officer",
+          "bio": "New Jersey-based, Greg founded Steamboat Capital, a maritime investment firm.{br}{br} He is also a board member of Monmouth Real Estate Investment Corporation, a public Real Estate Investment Trust. A former US State Department Officer, he is currently attending an EMBA at the Oxford University (candidate 2023) and holds a degree in Intermodal Logistics Transportation from the US Merchant Marine Academy and a MA in National Security Policy from the US Naval War College.{br}{br}Greg is a Lieutenant Commander of the US Navy Reserve."
+        }
+      }
+    },
+    "advisor": {
+      "titleDirectors": "Board of Directors",
+      "titleAdvisors": "Advisors",
+      "people": {
+        "piotr": {
+          "name": "Piotr Cichocki",
+          "role": "Former President of {link}",
+          "linkText": "Polsteam USA."
+        },
+        "edgar": {
+          "name": "Edgar Sabounghi",
+          "role": "Former Managing Director Morgan Stanley and hedge fund COO."
+        },
+        "damon": {
+          "name": "Damon Thompson",
+          "role": "Former Sr. Legal Counsel at Gazprom."
+        },
+        "nick": {
+          "name": "Nick Taranto",
+          "role": "Serial Founder, CEO & Founder of {link}",
+          "linkText": "Plated."
+        },
+        "sunil": {
+          "name": "Dr. Sunil Gupta",
+          "role": "E. Carter Professor of business Harvard Business School."
+        }
+      }
+    },
+    "plan": {
+      "2017": {
+        "date": "2017",
+        "status": "paste",
+        "text": "Our vision is incepted by the founders in Manhattan, NYC"
+      },
+      "ARP-2021": {
+        "date": "ARP 2021",
+        "status": "active",
+        "text": "Secro Inc. is incorporated"
+      },
+      "JAN-2022": {
+        "date": "JAN 2022",
+        "status": "future",
+        "text": "First platform proof of concept​"
+      },
+      "OCT-22": {
+        "date": "OCT 2022",
+        "status": "future",
+        "text": "First institutional funding round​"
+      },
+      "NOV-22": {
+        "date": "NOV 2022",
+        "status": "future",
+        "text": "IGP&amp;I approval and BIMCO membership​​"
+      },
+      "DEC-22": {
+        "date": "dec 2022",
+        "status": "future",
+        "text": "Secro e-Bill of Lading platform goes live​​"
+      },
+      "FEB-22": {
+        "date": "Feb 2023",
+        "status": "future",
+        "text": "First transction in the world without private rulebook agreement​"
+      }
+    }
+  },
+  "howToUse": {
+    "title": "HOW TO USE",
+    "description": "Secro has a portfolio of products with unique depth and breadth of services, to support the most sophisticated cross-border trades. Yet, our platform is intuitive and easy to use: find how to make the best of our services below",
+    "searchResults": "Search results",
+    "navBar": {
+      "title": "Navigation"
+    },
+    "resultEmpty": {
+      "title": "No matches",
+      "description1": "Unfortunately there is no results on your query.",
+      "description2": "Please try a different one"
+    }
+  }
+}

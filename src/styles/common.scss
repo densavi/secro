@@ -1,0 +1,100 @@
+.container {
+  width: 100%;
+  //min-width: $desktop;
+  max-width: $wide-l;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.modal {
+  box-shadow: 0px 16px 32px rgba(4, 9, 33, 0.15);
+  border-radius: 8px;
+
+  &-back-content {
+    min-height: 100%;
+    height: 100%;
+  }
+  &-common {
+    min-width: 488px;
+    padding: 24px 32px 32px;
+    position: relative;
+
+    @include phones {
+      min-width: 360px;
+      max-width: 360px;
+    }
+
+    &-close {
+      font-size: 18px;
+      position: absolute;
+      top: 17px;
+      right: 17px;
+      cursor: pointer;
+      color: #bdbdbd;
+    }
+    &__footer {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 52px;
+
+      @include phones {
+        button {
+          padding: 17px 20px;
+        }
+      }
+    }
+  }
+}
+
+.heading_extra {
+  @extend %heading_extra;
+}
+
+.heading_large {
+  @extend %heading_large;
+}
+
+.heading_medium {
+  @extend %heading_medium;
+}
+
+.heading_regular {
+  @extend %heading_regular;
+}
+
+.heading_small {
+  @extend %heading_small;
+}
+
+.text_regular {
+  @extend %text_regular;
+}
+
+.text_small {
+  @extend %text_small;
+}
+
+.text_light {
+  @extend %text_light;
+}
+
+.text_dark {
+  @extend %text_dark;
+}
+
+.text_accent {
+  @extend %text_accent;
+}
+
+.text_gray3 {
+  @extend %text_gray3;
+}
+
+.text_gray4 {
+  @extend %text_gray4;
+}
+
+.text_uppercase {
+  @extend %text_uppercase;
+}

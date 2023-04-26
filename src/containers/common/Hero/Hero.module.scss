@@ -1,0 +1,54 @@
+.container {
+  margin-top: calc(#{$header_height} + 75px);
+  position: relative;
+  @include phones {
+    margin: 99px -15px 0;
+  }
+
+  &__heading {
+    @include mobiles {
+      font-size: 46px;
+    }
+    @include phones {
+      font-size: 36px;
+    }
+  }
+
+  &__main_img {
+    object-fit: cover;
+    @include tablets {
+      height: 364px;
+    }
+    
+  }
+
+  &__content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    @include mobiles {
+      padding: 64px 15px 15px;
+      display: block;
+      text-align: left;
+    }
+    &_text {
+      max-width: 650px;
+      margin-top: 27px;
+      opacity: 0.8;
+      @include mobiles {
+       margin-top: 15px; 
+      }
+      @include phones {
+        margin-top: 27px;
+      }
+
+    }
+  }
+}

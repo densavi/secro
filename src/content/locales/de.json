@@ -1,0 +1,35 @@
+{
+  "header_link1": "Use cases",
+  "requestDemo": {
+    "title": "REQUEST DEMO",
+    "description": "Of course, deeply understanding your users and their needs is the foundation of any good product."
+  },
+  "contactSales": {
+    "title": "CONTACT SALES",
+    "description": "Of course, deeply understanding your users and their needs is the foundation of any good product."
+  },
+  "common": {
+    "form": {
+      "label": {
+        "fullName": "Full name",
+        "company": "Company",
+        "companyWebsite": "Company website",
+        "businessEmail": "Business E-mail",
+        "jobRole": "Job role",
+        "employees": "Employees",
+        "country": "Country",
+        "phone": "Phone",
+        "name": "Name",
+        "e-mail": "E-mail",
+        "title": "Title",
+        "message": "Message"
+      },
+      "placeholder": {},
+      "allFieldsRequired": "All fields are required"
+    },
+    "button": {
+      "cancel": "Cancel",
+      "submitRequest": "Submit request"
+    }
+  }
+}

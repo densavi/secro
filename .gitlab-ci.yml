@@ -1,0 +1,5 @@
+include:
+  project: secroteam/secro-app/ci_k8s
+  ref: pipelines
+  file:
+    - landing/.gitlab-ci.yml

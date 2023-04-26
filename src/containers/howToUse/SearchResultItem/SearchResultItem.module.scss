@@ -1,0 +1,29 @@
+.container {
+  margin-bottom: 12px;
+  &__link {
+    background-color: $gray_scale_95;
+    border-radius: 12px;
+    display: block;
+    padding: 30px 20px;
+    outline: none;
+
+    &:hover {
+      background-color: #dfeeef;
+      h2 {
+        color: $main;
+      }
+      p {
+        color: $gray_1;
+      }
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: $gray_3;
+    }
+  }
+}

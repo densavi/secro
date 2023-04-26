@@ -1,0 +1,101 @@
+@import '~/styles/colors.scss';
+@import '~/styles/vars.scss';
+@import '~/styles/animations.scss';
+
+$root: &;
+
+.container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1024;
+  display: table;
+  position: fixed;
+  transform: scale(0);
+
+  &__background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    vertical-align: middle;
+    background: rgba($color: $black, $alpha: 0.8);
+  }
+
+  &__reveal {
+    transform: scale(1);
+
+    &__background {
+      @extend %animtaion-fade-in;
+      background: rgba(0, 0, 0, 0);
+
+      &__content {
+        @extend %animtaion-scale-up;
+      }
+    }
+
+    &_out {
+      @extend %animtaion-quick-scale-down;
+
+      &__background {
+        @extend %animtaion-fade-out;
+
+        &__content {
+          @extend %animtaion-scale-down;
+        }
+      }
+    }
+  }
+
+  &__blow {
+    transform: scale(1);
+
+    &__background {
+      @extend %animtaion-fade-in;
+      background: rgba(0, 0, 0, 0);
+
+      &__content {
+        @extend %animtaion-scale-up;
+      }
+    }
+  }
+
+  &__sketch {
+    transform: scale(1);
+
+    &__background {
+      @extend %animtaion-fade-in;
+      background: rgba(0, 0, 0, 0);
+
+      &__content {
+        @extend %animtaion-scale-up;
+      }
+    }
+  }
+
+  &__bond {
+    transform: scale(1);
+
+    &__background {
+      @extend %animtaion-fade-in;
+      background: rgba(0, 0, 0, 0);
+
+      &__content {
+        @extend %animtaion-scale-up;
+      }
+    }
+  }
+
+  &__content {
+    background-color: $white;
+    display: inline-block;
+    border-radius: 8px;
+    position: relative;
+    width: min-content;
+    box-shadow: 0 16px 32px rgba(4, 9, 33, 0.15);
+    overflow: auto;
+    max-height: calc(100vh - 100px);
+    margin: 50px 0;
+  }
+}

@@ -1,0 +1,53 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &_block {
+    position: absolute;
+    padding: 10px 18px;
+    background-color: $error;
+    border-radius: 6px;
+    display: flex;
+    margin: auto auto auto 0;
+    z-index: 2;
+    top: 10px;
+
+    @include phones {
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+
+    &_cup {
+      position: absolute;
+      top: -7px;
+      left: 20px;
+      width: 0;
+      height: 0;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-bottom: 13px solid $error;
+    }
+
+    &_info {
+      display: flex;
+
+      &_icon {
+        margin: auto 0;
+
+        svg {
+          height: 20px;
+          width: 20px;
+          display: block;
+        }
+      }
+
+      &_message {
+        margin: auto 0 auto 10px;
+        color: $white;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+.wrapper {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.phone__label {
+  font-size: 14px;
+  color: #828282;
+}
+
+.phone__input-container {
+  height: 37px;
+  border: none !important;
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: inherit !important;
+}
+
+.phone__input {
+  border: none !important;
+  height: inherit !important;
+  padding: 0 !important;
+  padding-left: 15px !important;
+
+  &:focus,
+  ::before,
+  ::after {
+    border: none !important;
+    box-shadow: none !important;
+  }
+  ::placeholder {
+    color: #84878d !important;
+  }
+  color: #000000 !important;
+  font-family: inherit !important;
+}
+
+.search__results-dropdown {
+  max-height: 416px !important;
+  width: 100% !important;
+
+  // list of countries
+  li:not(:first-child) {
+    display: flex;
+    align-items: center;
+    height: 82px !important;
+    border-bottom: 1px solid #e6e6e6 !important;
+    padding: 0 24px !important;
+
+    > div {
+      position: static !important;
+      margin: 0 !important;
+    }
+    // country name
+    :nth-child(2) {
+      margin-left: 14px;
+    }
+  }
+}
+
+.search__countries-input {
+  width: 100% !important;
+  padding: 0 16px !important;
+  height: 60px;
+  border-bottom: none !important;
+
+  > input {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px !important;
+    margin-top: 24px;
+    height: 36px;
+
+    padding-left: 16px;
+    padding-right: 3px !important;
+
+    background: url('../../../assets/icons/search.svg') no-repeat right;
+    background-origin: content-box;
+  }
+}
+
+.select_country {
+  position: static !important;
+  height: 100%;
+  border: none !important;
+  border-right: 1px solid #e5e5e5 !important;
+  display: flex;
+  align-items: center;
+
+  // selected flag
+  > div {
+    top: 0;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+
+    // flag icon
+    > div {
+      display: flex;
+      align-items: center;
+
+      position: relative !important;
+      border-radius: 1px;
+      margin: 0 !important;
+      top: 0 !important;
+
+      // arrow
+      > div {
+        top: 0 !important;
+        border: none !important;
+        right: 0 !important;
+        width: 16px !important;
+        height: 12px !important;
+        left: 34px;
+        background-image: url('../../../assets/icons/down.svg');
+        background-size: cover;
+        background-position: center center;
+      }
+    }
+  }
+}

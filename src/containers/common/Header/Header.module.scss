@@ -1,0 +1,202 @@
+@import '~/styles/mixins.scss';
+
+.header {
+  height: $header_height;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  align-content: stretch;
+
+  @include phones {
+    height: 67px;
+  }
+
+  &.with_overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    #mobile-menu-btn {
+      background: green;
+      &:before,
+      &:after,
+      span {
+        background: #fff;
+      }
+    }
+  }
+
+  &__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    &_normal {
+      border-bottom: 1px solid $border-color;
+    }
+    &_light {
+      border-bottom: 1px solid rgba($white, 0.25);
+    }
+  }
+
+  &__image {
+    margin-right: 70px;
+
+    @include phones {
+      max-width: 64px;
+      margin-right: 0;
+    }
+
+    svg {
+      max-width: 100%;
+    }
+  }
+
+  &__nav {
+    height: 100%;
+    @include tablets {
+      display: none;
+    }
+    &_list {
+      height: 100%;
+      display: flex;
+    }
+    &_item {
+      margin-left: 21px;
+      margin-right: 21px;
+    }
+    &_text {
+      @extend %flex-center;
+      height: 100%;
+      text-transform: uppercase;
+      position: relative;
+      transition: 0.2s ease-in-out;
+
+      font-size: 12px;
+      line-height: 24px;
+      font-weight: 700;
+      letter-spacing: 0.1px;
+
+      &_light {
+        color: $white;
+        &:hover {
+          color: rgba($white, 0.6);
+        }
+      }
+      &_common {
+        color: $gray_3;
+        &:hover {
+          color: $black;
+        }
+      }
+
+      &_active {
+        color: $black;
+        &:after {
+          content: '';
+          position: absolute;
+          width: 110%;
+          height: 1px;
+          left: -5%;
+          bottom: -1px;
+        }
+        &_common:after {
+          background-color: $primary;
+        }
+        &_light:after {
+          background-color: $white;
+        }
+      }
+    }
+  }
+
+  &__actions {
+    margin-left: auto;
+    @include tablets {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__menu_open {
+    color: #fff;
+    margin-left: 40px;
+    width: 24px;
+    height: 16px;
+    background: transparent;
+    border: 0;
+    position: relative;
+    display: none;
+    @include tablets {
+      display: block;
+    }
+    @include phones {
+      margin-left: 15px;
+    }
+    span,
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      left: 0;
+      height: 2px;
+      background: #000;
+      width: 100%;
+      top: 50%;
+      margin-top: -1px;
+      transition: all 0.5s ease;
+      border-radius: 2px;
+    }
+    &.white {
+      color: red;
+      span,
+      &:before,
+      &:after {
+        background: #fff;
+      }
+    }
+    &:before {
+      top: 0;
+      margin: 0;
+    }
+    &:after {
+      top: auto;
+      margin: 0;
+      bottom: 0;
+    }
+    &.active {
+      span {
+        opacity: 0;
+      }
+      &:before {
+        transform: rotate(50deg);
+        top: 50%;
+      }
+      &:after {
+        transform: rotate(-50deg);
+        top: 50%;
+      }
+    }
+  }
+
+  &__link {
+    @extend %button_medium;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 8px 32px;
+    opacity: 0.7;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &_light {
+      color: $white;
+      border-color: $white;
+    }
+
+    &_normal {
+      color: $main;
+      border-color: $main;
+    }
+  }
+}

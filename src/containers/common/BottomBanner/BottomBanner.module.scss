@@ -1,0 +1,23 @@
+.container {
+  background-color: $footer;
+
+  &__inner {
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border-bottom: 1px solid $border-color-dark;
+    &_text {
+      font-size: 22px;
+      font-weight: 600;
+      color: $white;
+      margin-bottom: 32px;
+    }
+    &_button {
+      margin-top: 45px;
+    }
+  }
+}

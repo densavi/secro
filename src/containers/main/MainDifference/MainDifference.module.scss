@@ -1,0 +1,71 @@
+.container {
+  max-width: $home_container + 30px;
+  width: 100%;
+  margin: auto;
+  padding: 60px 15px 80px 15px;
+
+  @include phones {
+    padding: 40px 15px 30px 15px;
+  }
+
+  .heading {
+    @include phones {
+      font-size: 24px;
+    }
+  }
+}
+
+.carousel {
+  &__slide {
+    position: relative;
+  }
+  &__heading {
+    font-size: 24px !important;
+    line-height: 52px !important;
+  }
+  &__text {
+    margin-top: 10px;
+    max-width: 416px;
+
+    @include tablets {
+      max-width: 260px;
+    }
+
+    @include phones {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  &__image {
+    position: absolute;
+    right: -161px;
+    top: 20px;
+    z-index: -1;
+
+    @include laptop {
+      right: -120px;
+    }
+
+    @include tablets {
+      right: 50px;
+      max-width: 430px;
+
+      svg {
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+
+    @include phones {
+      top: auto;
+      right: 50%;
+      transform: translateX(50%);
+      width: 100%;
+      padding: 0 15px;
+
+      svg {
+        height: 250px;
+      }
+    }
+  }
+}

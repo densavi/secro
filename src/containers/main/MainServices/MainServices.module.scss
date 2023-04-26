@@ -1,0 +1,200 @@
+.wrapper {
+  background-color: $bg;
+}
+
+.container {
+  max-width: $home_container + 30px;
+  width: 100%;
+  margin: auto;
+  padding: 60px 15px;
+
+  @include phones {
+    padding: 40px 15px;
+  }
+
+  &__subtitle {
+    @extend %flex-align;
+    color: $primary;
+    margin-bottom: 24px;
+
+    &_text {
+      font-size: 11px;
+      line-height: 24px;
+      font-weight: 700;
+      margin-left: 12px;
+    }
+
+    p {
+      @include tablets {
+        font-size: 11px;
+      }
+    }
+  }
+
+  h2 {
+    @include phones {
+      font-size: 24px;
+    }
+  }
+
+  &__text {
+    margin-top: 20px;
+    margin-bottom: 32px;
+
+    @include tablets {
+      margin-bottom: 0;
+    }
+  }
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @include phones {
+      flex-direction: column;
+    }
+  }
+  &__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 22px;
+    margin-bottom: 45px;
+    flex: 0 0 31%;
+    @include tablets {
+      align-items: center;
+    }
+    @include phones {
+      margin-bottom: 0;
+    }
+
+    &:nth-child(2) {
+      flex: 0 0 21%;
+    }
+
+    h3 {
+      @include phones {
+        height: auto;
+      }
+    }
+
+    &__services {
+      @include laptop-min {
+        flex: 0 0 65%;
+      }
+    }
+
+    &__members {
+      display: flex;
+
+      @include laptop-min {
+        flex: 0 0 35%;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      @include tablets {
+        flex-wrap: wrap;
+        flex: 0 0 100%;
+        justify-content: space-around;
+      }
+    }
+  }
+
+  &__member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:not(:last-child) {
+      margin-bottom: 50px;
+      @include tablets {
+        margin-bottom: 0;
+      }
+    }
+    @include tablets {
+      margin-top: 10px;
+      max-width: 130px
+    }
+    @include phones {
+      max-width: 100px;
+    }
+    &__label {
+      font-size: 14px;
+      line-height: 1;
+      font-weight: 600;
+      margin-left: 5px;
+      color: $primary;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.item {
+  &__icon {
+    @extend %flex-align;
+    width: 57px;
+    height: 57px;
+    color: $gray_3;
+    margin: 0 auto 20px;
+  }
+  &__text {
+    margin-top: 12px;
+    margin-bottom: 22px;
+    text-align: center;
+  }
+  &__link {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    color: $primary;
+    transition: all 0.2s ease-in-out;
+
+    span {
+      display: inline-flex;
+      margin-left: 4px;
+      margin-right: 20px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+      color: $main;
+      span {
+        transform: translate(10px, 0);
+      }
+    }
+
+    &_disabled {
+      pointer-events: none;
+      opacity: 0.6;
+    }
+  }
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 64px;
+  }
+  &__pill {
+    margin-left: 16px;
+    background-color: #474c53;
+    color: #fff;
+    padding: 4px 16px;
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: $primary_family;
+    text-transform: none;
+
+    &_primary {
+      background-color: #17454b;
+    }
+  }
+}

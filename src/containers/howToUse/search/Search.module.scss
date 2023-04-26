@@ -1,0 +1,63 @@
+.container {
+  margin: -36px auto auto;
+  max-width: 874px;
+
+  &_input {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 874px;
+    height: 58px !important;
+    border: none !important;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.12);
+
+    &::placeholder {
+      color: $gray_4 !important;
+      font-weight: 600;
+    }
+
+    &:focus {
+      border: none;
+    }
+
+    &_icons {
+      display: flex;
+
+      &_cross {
+        cursor: pointer;
+        right: 62px;
+        top: 15px;
+        position: absolute;
+
+        svg {
+          height: 17px;
+          width: 17px;
+        }
+      }
+
+      &_search {
+        display: flex;
+        cursor: pointer;
+        right: 6px;
+        top: 4px;
+        position: absolute;
+        height: 40px;
+        width: 40px;
+
+        svg {
+          margin: auto;
+        }
+
+        &_active {
+          background: $light_green;
+          border-radius: 4px;
+
+          svg {
+            path {
+              fill: $main;
+            }
+          }
+        }
+      }
+    }
+  }
+}

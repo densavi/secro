@@ -1,0 +1,134 @@
+.history {
+  display: flex;
+  position: relative;
+  margin: 150px 0 100px;
+  @include mobiles {
+    margin-top: 100px;
+    margin-bottom: 70x;
+  }
+  &__line_wrapper {
+    position: relative;
+    width: 100%;
+
+    &_line {
+      height: 8px;
+      background: $gray_5;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      z-index: -1;
+    }
+  }
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &_wrapper {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      &_date {
+        position: absolute;
+        top: -22px;
+        left: -10px;
+        white-space: nowrap;
+        @include mobiles {
+          font-size: 24px !important;
+          left: 50% !important;
+          transform: translateX(-50%);
+          top: -17px;
+        }
+      }
+
+      &_mark {
+        display: flex;
+        height: 42px;
+        width: 42px;
+        border-radius: 50%;
+        border: 6px solid $gray_5;
+        background: $white;
+        margin-top: 43px;
+
+        &_inner {
+          height: 16px;
+          width: 16px;
+          margin: auto;
+          border-radius: 50%;
+        }
+      }
+
+      &_description {
+        display: flex;
+        margin-left: 20px;
+        position: absolute;
+        top: 86px;
+
+        &_lines {
+          display: flex;
+          flex-direction: column;
+          margin-top: 5px;
+
+          &_disabled {
+            height: 38px;
+            background: $gray_5;
+            width: 1px;
+          }
+
+          &_info {
+            display: flex;
+
+            &_active {
+              background: $main;
+              width: 1px;
+              height: 100%;
+            }
+
+            &_text {
+              margin-left: 15px;
+
+              &_value {
+                font-size: 16px !important;
+                line-height: 24px !important;
+                color: $gray_3;
+                margin-bottom: 17px;
+                width: 272px;
+                @include mobiles {
+                  width: 166px;
+                }
+
+                &:last-child {
+                  margin-bottom: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.disable {
+  color: $gray_4;
+}
+
+.left {
+  left: -32px;
+}
+
+.paste {
+  background: transparent;
+}
+
+.active {
+  border: 3px solid transparent;
+}
+
+.future {
+  height: 20px;
+  width: 20px;
+  border: 3px solid $gray_5;
+}

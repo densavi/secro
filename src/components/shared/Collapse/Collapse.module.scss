@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  cursor: pointer;
+
+  &__icon {
+    &_open {
+      svg {
+        transform: rotate(90deg);
+        path {
+          stroke: $main;
+        }
+      }
+    }
+  }
+
+  &__text {
+    font-weight: 600;
+    font-size: 18px !important;
+    margin: auto 0 auto 6px;
+  }
+}

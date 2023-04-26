@@ -1,0 +1,86 @@
+.container {
+  @extend %flex-justify-between;
+  max-width: 1090px;
+  margin: 202px auto;
+  @include tablets {
+    margin: 176px auto;
+  }
+  @include phones {
+    margin: 132px auto;
+    display: block;
+  }
+  &__contact {
+    color: #828282;
+    &:hover {
+      color: $main;
+    }
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 420px;
+    @include phones {
+      max-width: 100%;
+      &:not(:last-child) {
+        margin-bottom: 81px;
+      }
+    }
+    
+
+    &_title {
+      margin-bottom: 40px;
+      @include phones {
+        margin-bottom: 48px;
+        font-size: 36px !important;
+        line-height: 53px !important;
+      }
+    }
+
+    &_info {
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: $gray_3;
+      @include phones {
+        margin-bottom: -4px;
+      }
+    }
+
+    &_name {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    &_map {
+      display: flex;
+      margin-top: 24px;
+      cursor: pointer;
+
+      &_text {
+        font-size: 16px;
+        color: $main;
+        font-weight: 700;
+      }
+
+      &_icon {
+        margin: 2px 0 auto 10px;
+
+        svg {
+          margin-top: 3px;
+        }
+      }
+    }
+
+    &_field {
+      margin-bottom: 30px;
+    }
+
+    &_send {
+      display: flex;
+      margin-left: auto;
+      height: 58px;
+    }
+  }
+}

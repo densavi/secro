@@ -1,0 +1,41 @@
+@mixin custom-scroll {
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $gray_scale_92;
+    border-radius: 8px;
+  }
+}
+
+@mixin laptop {
+  @media (max-width: $laptop_width) {
+    @content;
+  }
+}
+
+@mixin laptop-min {
+  @media (min-width: $tablet_width + 1px) {
+    @content;
+  }
+}
+
+@mixin tablets {
+  @media (max-width: $tablet_width) {
+    @content;
+  }
+}
+
+@mixin mobiles {
+  @media (max-width: $mobile_width) {
+    @content;
+  }
+}
+
+@mixin phones {
+  @media (max-width: $phone_width) {
+    @content;
+  }
+}

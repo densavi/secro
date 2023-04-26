@@ -1,0 +1,62 @@
+// media queries vars
+$desktop: 1000px;
+$wide-l: 1440px;
+
+// Font Families
+$primary_family: 'Nunito Sans';
+$secondary_family: 'Oswald';
+
+// Some common elements
+$header_height: 110px;
+$home_container: 830px;
+
+$laptop_width: 1368px;
+$tablet_width: 1024px;
+$mobile_width: 768px;
+$phone_width: 575px;
+
+// @extends
+%flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%flex-align {
+  display: flex;
+  align-items: center;
+}
+
+%flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+%flex-justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+%flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+%flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+%text-elypsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+%input-margin {
+  margin: {
+    top: 6px;
+    bottom: 20px;
+  }
+}

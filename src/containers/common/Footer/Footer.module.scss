@@ -1,0 +1,51 @@
+.wrapper {
+  background-color: $footer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 15px 32px;
+  @include mobiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 0;
+    padding-top: 32px;
+  }
+  &__column_title {
+    margin-bottom: 12px;
+  }
+  &__text {
+    @extend %text_regular;
+    @extend %text_light;
+    margin-bottom: 4px;
+  }
+  &__link {
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &__column {
+    @include mobiles {
+      margin-bottom: 42px;
+      &:first-child {
+        grid-column: 1 / -1;
+        margin-bottom: 43px;
+      }
+
+    }
+
+  }
+  &__logo {
+    @include mobiles {
+      width: 65px;
+    }
+  }
+}
+
+.copy {
+  padding: 7px 0;
+  background: #1A1F26;
+  color: rgba(255,255,255,.5);
+  font-size: 14px;
+}

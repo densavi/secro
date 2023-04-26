@@ -1,0 +1,48 @@
+.container {
+  padding: 80px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  &__close {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+
+    &_name {
+      font-weight: 600;
+      font-size: 36px !important;
+      text-transform: uppercase;
+      white-space: nowrap;
+      margin-bottom: 12px;
+    }
+
+    &_role {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px !important;
+      color: $primary;
+      margin-bottom: 24px;
+    }
+
+    &_bio {
+      margin-bottom: 18px;
+      min-width: 358px;
+      text-align: justify;
+      line-height: 1.5em;
+    }
+  }
+
+  &__avatar {
+    margin-left: 70px;
+    min-width: 280px;
+    height: 374px;
+  }
+}

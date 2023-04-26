@@ -1,0 +1,57 @@
+@import '~/styles/colors.scss';
+@import '~/styles/mixins.scss';
+
+.wrapper {
+  position: relative;
+
+  &__expanded {
+    transform: rotate(180deg);
+  }
+
+  &__list {
+    position: absolute;
+    background-color: $white;
+    height: auto;
+    box-shadow: 0 6px 20px rgba(4, 9, 33, 0.1);
+    overflow-y: auto;
+    width: 100%;
+    padding: 0 24px;
+    z-index: 2;
+
+    &_search {
+      margin: 24px 0;
+    }
+    &__top {
+      top: auto;
+      bottom: 100%;
+    }
+
+    &_row_wrapper {
+      max-height: 424px;
+      @include custom-scroll;
+      overflow-y: auto;
+
+      &_row {
+        padding: 24px 0;
+        border-bottom: 1px solid $border-color;
+        cursor: pointer;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        &_name {
+        }
+
+        &_search {
+          &:first-child {
+            padding-top: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.select_wrapper {
+}

@@ -1,0 +1,8 @@
+.container {
+  flex-grow: 1;
+
+  &__search_title {
+    @extend %text_medium;
+    margin-bottom: 20px;
+  }
+}

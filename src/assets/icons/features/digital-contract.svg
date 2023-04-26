@@ -1,0 +1,28 @@
+<svg width="121" height="150" viewBox="0 0 121 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_983_1089)">
+<path d="M13.548 138.48L1.78092 19.0199C1.34929 14.6379 4.53985 10.7309 8.9197 10.2781L95.5012 1.32694C99.9121 0.870926 103.852 4.08972 104.286 8.50291L116.055 128.386C116.486 132.782 113.273 136.696 108.877 137.129L22.2937 145.658C17.8967 146.091 13.9811 142.877 13.548 138.48Z" fill="white"/>
+<path d="M14.0456 138.431L2.27851 18.9709C1.87385 14.8628 4.86501 11.1999 8.97112 10.7754L95.5527 1.82429C99.6879 1.39678 103.382 4.41439 103.788 8.55176L115.557 128.435C115.962 132.556 112.95 136.225 108.828 136.631L22.2447 145.16C18.1225 145.566 14.4516 142.553 14.0456 138.431Z" stroke="#333333"/>
+</g>
+<rect x="17.3005" y="23.559" width="54" height="6" rx="2" transform="rotate(-5.6256 17.3005 23.559)" fill="#DCEDEE"/>
+<rect x="21.3005" y="59.2935" width="71.3057" height="6" rx="2" transform="rotate(-5.6256 21.3005 59.2935)" fill="#DCEDEE"/>
+<rect x="22.3005" y="68.99" width="71.3057" height="6" rx="2" transform="rotate(-5.6256 22.3005 68.99)" fill="#DCEDEE"/>
+<rect x="26.0005" y="100.99" width="71.3057" height="6" rx="2" transform="rotate(-5.6256 26.0005 100.99)" fill="#DCEDEE"/>
+<rect x="28.0005" y="121.99" width="71.3057" height="6" rx="2" transform="rotate(-5.6256 28.0005 121.99)" fill="#DCEDEE"/>
+<rect x="23.3005" y="78.99" width="71.3057" height="6" rx="2" transform="rotate(-5.6256 23.3005 78.99)" fill="#DCEDEE"/>
+<rect x="27.0005" y="110.99" width="65.1457" height="6" rx="2" transform="rotate(-5.6256 27.0005 110.99)" fill="#DCEDEE"/>
+<rect x="24.3005" y="89.99" width="64.6252" height="6" rx="2" transform="rotate(-5.6256 24.3005 89.99)" fill="#DCEDEE"/>
+<rect x="19.0005" y="37.9796" width="24" height="4" rx="2" transform="rotate(-5.6256 19.0005 37.9796)" fill="#DCEDEE"/>
+<rect x="20.0005" y="44.9796" width="24" height="4" rx="2" transform="rotate(-5.6256 20.0005 44.9796)" fill="#DCEDEE"/>
+<rect x="55.8223" y="34.3527" width="24" height="4" rx="2" transform="rotate(-5.6256 55.8223 34.3527)" fill="#DCEDEE"/>
+<rect x="56.8225" y="41.3527" width="24" height="4" rx="2" transform="rotate(-5.6256 56.8225 41.3527)" fill="#DCEDEE"/>
+<defs>
+<filter id="filter0_d_983_1089" x="1.7417" y="1.28394" width="118.352" height="148.413" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="4" dy="4"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.667639 0 0 0 0 0.870833 0 0 0 0 0.87025 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_983_1089"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_983_1089" result="shape"/>
+</filter>
+</defs>
+</svg>

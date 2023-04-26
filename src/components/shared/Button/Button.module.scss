@@ -1,0 +1,76 @@
+.container {
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid transparent;
+
+  &_primary {
+    @extend %button_medium;
+    background-color: $main;
+
+    &:hover {
+      background-color: $button_hover;
+    }
+
+    &:active {
+      background-color: $button_active;
+    }
+
+    &:disabled {
+      color: $gray_scale_55;
+      background-color: $gray_scale_92;
+    }
+  }
+
+  &_small {
+    padding: 8px 32px;
+  }
+
+  &_medium {
+    padding: 17px 40px;
+  }
+
+  &_ghost {
+    @extend %button_medium;
+    background-color: transparent;
+    color: $secondary-gray;
+
+    &:hover {
+      background: none;
+    }
+  }
+
+  &_ghostBright {
+    @extend %button_medium;
+    background-color: transparent;
+    color: $main;
+
+    &:hover {
+      background: none;
+      color: $button_hover;
+    }
+  }
+
+  &_outlined {
+    @extend %button_medium;
+    background-color: transparent;
+    color: $white;
+    border-color: $white;
+    opacity: 0.7;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &_secondary {
+    @extend %button_medium;
+    background-color: rgba($white, 0.2);
+    color: white;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      background-color: rgba($white, 0.4);
+    }
+  }
+}
