@@ -8,6 +8,10 @@ import {Typography} from '~/components';
 import {CrossIcon} from '~/assets';
 import {ModalContext} from '~/context';
 
+import {
+  In
+} from '~/assets';
+
 const Bio = ({teamMember}) => {
   const {closeModal} = useContext(ModalContext);
 
@@ -19,12 +23,27 @@ const Bio = ({teamMember}) => {
         <CrossIcon />
       </div>
       <div className={styles.container__info}>
-        <Typography className={styles.container__info_name} variant="Heading">
-          <FormattedMessage id={`company.team.people.${name}.name`} />
-        </Typography>
-        <Typography className={styles.container__info_role}>
-          <FormattedMessage id={`company.team.people.${name}.role`} />
-        </Typography>
+        <div className={styles.container__head}>
+          <div className={styles.container__avatar}>
+            <Image src={avatar} alt={`Secro team member: ${name}`} />
+          </div>
+          <div className={styles.container__info}>
+            <Typography className={styles.container__info_name} variant="Heading">
+              <FormattedMessage id={`company.team.people.${name}.name`} />
+            </Typography>
+            <Typography className={styles.container__info_role}>
+              <FormattedMessage id={`company.team.people.${name}.role`} />
+            </Typography>
+            <ul className={styles.container__socials}>
+              <li>
+                <a href="#" target="_blank">
+                  <In />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+       
         <div className={styles.container__info_bio}>
           <FormattedMessage
             id={`company.team.people.${name}.bio`}
@@ -32,9 +51,7 @@ const Bio = ({teamMember}) => {
           />
         </div>
       </div>
-      <div className={styles.container__avatar}>
-        <Image src={avatar} alt={`Secro team member: ${name}`} />
-      </div>
+      
     </div>
   );
 };

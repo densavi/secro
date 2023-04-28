@@ -27,16 +27,19 @@ const Solutions = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.pageYOffset;
-      const isSmallScreen = window.innerWidth < 768;
       const target = document.getElementById('target');
+      const elemHeight = document.querySelector('.elem_height');
       const targetTop = target.offsetTop;
 
-      if (scrollTop >= targetTop && isSmallScreen) {
+      if (scrollTop >= targetTop && scrollTop < targetTop + elemHeight.offsetHeight) {
         setIsFixed(true);
-      } else if (scrollTop < targetTop && isFixed) {
+      } else {
         setIsFixed(false);
       }
+
     };
+
+    
 
     window.addEventListener('scroll', handleScroll);
 
@@ -47,7 +50,7 @@ const Solutions = () => {
 
   return (
     <>
-      <Hero title="useCases.title" text="useCases.text" image={UseCasesHero} />
+      <Hero title="Solutions" text="useCases.text" image={UseCasesHero} />
       <section className="container">
         <div className={styles.solutions}>
           <div className={styles.solutions__wrap}>
@@ -113,7 +116,7 @@ const Solutions = () => {
                   </div>
                 </div>
               </div>
-              <div className={styles.tabs}>
+              <div className={styles.tabs + ' elem_height'}>
                 {activeTab === 0 && 
                   <div className={styles.tabs__content}>
                     <h1 className={styles.tabs__title}>Solutions for Banks and financial institutions</h1>

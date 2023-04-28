@@ -88,7 +88,8 @@ const MainPartnersCustomers = () => {
           {activeTab === 0 && 
             <div className={styles.tab}>
               <Partner1 />
-              <Partner2 />
+              {/* <Partner2 /> */}
+              <img src={Partner2.src} />
               <Partner3 />
             </div>
           }

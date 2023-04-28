@@ -97,5 +97,10 @@ $root: &;
     overflow: auto;
     max-height: calc(100vh - 100px);
     margin: 50px 0;
+    @include mobiles {
+      width: calc(100% - 40px);
+      max-width: 100%;
+      min-width: 1px;
+    }
   }
 }

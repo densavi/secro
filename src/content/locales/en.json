@@ -84,6 +84,9 @@
     "title": "SECRO TRUSTED NETWORK",
     "text": "Secro uses the most advanced technology to vet customers, protect data, prevent frauds, detect suspicious behaviors and ensure maximum confidentiality."
   },
+  "solutions": {
+    "title:": "Solutions"
+  },
   "useCases": {
     "title": "Use cases",
     "text": "Secro helps organizations and individuals to solve complex challenges in a collaborative, cost-efficient way. The flexibility and user-friendliness of our technology allows quick adoption and scalability across multiple industries and use cases",
@@ -359,7 +362,7 @@
       "NOV-22": {
         "date": "NOV 2022",
         "status": "future",
-        "text": "IGP&amp;I approval and BIMCO membership​​"
+        "text": "IGPI approval and BIMCO membership​​"
       },
       "DEC-22": {
         "date": "dec 2022",

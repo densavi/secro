@@ -16,12 +16,12 @@ const MobileMenu = ({isHeaderLight, withHeaderOverlay, isOpenMenu}) => {
       textId: 'header.link1',
     },
     {
-      href: Routes.Features,
-      textId: 'header.link2',
+      href: Routes.Solutions,
+      textId: 'Solutions',
     },
     {
-      href: Routes.HowToUse,
-      textId: 'header.link3',
+      href: Routes.Features,
+      textId: 'header.link2',
     },
     {
       href: Routes.Company,

@@ -8,7 +8,11 @@
   z-index: 99;
   display: flex;
   align-content: stretch;
+  background: #fff;
 
+  @include tablets {
+    position: fixed;
+  }
   @include phones {
     height: 67px;
   }
@@ -125,6 +129,7 @@
     border: 0;
     position: relative;
     display: none;
+    transition: all .5s ease;
     @include tablets {
       display: block;
     }
@@ -163,6 +168,9 @@
       bottom: 0;
     }
     &.active {
+      width: 18px;
+      height: 18px;
+      margin-left: 21px;
       span {
         opacity: 0;
       }

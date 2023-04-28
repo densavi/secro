@@ -16,8 +16,8 @@ const Case = ({content}) => {
     `<ul>`
         + 
           content.solutions.list.map((item) =>
-            `<li>`+item.text+`</li>`
-          )
+            `<li key=`+item.text+`>`+item.text+`</li>`
+          ).join('')
         +
     `</ul>`
 

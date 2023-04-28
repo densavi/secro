@@ -1,5 +1,5 @@
 .MobileMenu {
-  position: absolute;
+  position: fixed;
   z-index: 10;
   color: #fff;
   top: 0;
@@ -36,7 +36,7 @@
         margin-bottom: 48px;
       }
       a {
-        font-weight: 600;
+        font-weight: 500;
         font-size: 20px;
         color: #828282;
         font-family: $secondary_family;

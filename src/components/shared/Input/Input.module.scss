@@ -19,6 +19,7 @@
   border-bottom: 1px solid $gray_5;
   -webkit-text-fill-color: $black;
   -webkit-opacity: 1;
+  border-radius: 0 !important;
 
   &:focus {
     border-bottom: 1px solid $main;

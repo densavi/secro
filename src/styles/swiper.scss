@@ -144,20 +144,28 @@
     }
   }
   .swiper-slide-active {
-    .History_history__top_wrapper_mark_inner__ZYNq9 {
+    .mark-active {
       background: $main;
       width: 16px;
       height: 16px;
+      border-color: $main;
+    }
+    .date-active {
+      color: #000 !important;
     }
   }
   .swiper-slide-next {
-    .History_history__top_wrapper_mark_inner__ZYNq9 {
+    .mark-active {
       border-color: $main;
       width: 16px;
       height: 16px;
     }
-    .History_left__nM2cX {
-      color: #000;
+    .date-active {
+      color: #000 !important;
     }
   }
+}
+
+.date-active {
+  text-transform: uppercase;
 }

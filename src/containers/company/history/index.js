@@ -25,12 +25,12 @@ const History = () => {
       <>
         <Typography
           variant="Heading"
-          className={`${styles.history__top_wrapper_date} ${className} ${dateDisable}`}>
+          className={`${styles.history__top_wrapper_date} ${className} ${dateDisable}` + ' date-active'}>
           <FormattedMessage id={`company.plan.${text}.date`} />
         </Typography>
         <div className={styles.history__top_wrapper_mark}>
           <div
-            className={`${styles.history__top_wrapper_mark_inner} ${styles[status]}`}
+            className={`${styles.history__top_wrapper_mark_inner} ${styles[status]}` + ' mark-active'}
           />
         </div>
       </>

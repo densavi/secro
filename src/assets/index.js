@@ -102,10 +102,16 @@ export {default as IgpIImg} from './images/member/Igp&iLogo.svg';
 // Partners
 
 export {default as Partner1} from './images/partners/partner1.svg';
-export {default as Partner2} from './images/partners/partner2.svg';
+export {default as Partner2} from './images/d-amico.png';
 export {default as Partner3} from './images/partners/partner3.svg';
 export {default as Partner4} from './images/partners/partner4.svg';
 export {default as Partner5} from './images/partners/partner5.svg';
 export {default as Partner6} from './images/partners/partner6.svg';
 export {default as Partner7} from './images/partners/partner7.svg';
 export {default as Partner8} from './images/partners/partner8.svg';
+
+
+
+export {default as In} from './images/in.svg';
+
+

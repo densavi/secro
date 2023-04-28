@@ -1,15 +1,19 @@
 .container {
-  padding: 80px;
+  padding: 60px 80px;
   display: flex;
   height: 100%;
   width: 100%;
   position: relative;
 
+  @include phones {
+    padding: 50px 20px;
+  }
+
   &__close {
     cursor: pointer;
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 24px;
+    top: 24px;
   }
 
   &__info {
@@ -22,6 +26,11 @@
       text-transform: uppercase;
       white-space: nowrap;
       margin-bottom: 12px;
+      @include phones {
+        font-size: 18px !important;
+        margin-bottom: 6px;
+        line-height: 1.2 !important;
+      }
     }
 
     &_role {
@@ -29,7 +38,9 @@
       font-weight: 600;
       font-size: 20px !important;
       color: $primary;
-      margin-bottom: 24px;
+      @include phones {
+        font-size: 16px !important;
+      }
     }
 
     &_bio {
@@ -37,12 +48,60 @@
       min-width: 358px;
       text-align: justify;
       line-height: 1.5em;
+      @include mobiles {
+        min-width: 1px;
+      }
     }
   }
 
   &__avatar {
-    margin-left: 70px;
-    min-width: 280px;
-    height: 374px;
+    width: 112px;
+    min-width: 112px;
+    height: 112px;
+    margin-right: 24px;
+    @include phones {
+      width: 80px;
+      min-width: 80px;
+      height: 80px;
+      margin-right: 15px;
+    }
   }
+
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    @include mobiles {
+      justify-content: center;
+    }
+  }
+
+  &__socials {
+    &:before {
+      content: '';
+      margin: 8px 0;
+      width: 64px;
+      display: block;
+      height: 1px;
+      background: #E0E0E0;
+      @include mobiles {
+        margin: 4px 0;
+      }
+    }
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      &:not(:first-child) {
+        margin-left: 20px;
+      }
+      svg {
+        display: flex;
+        @include phones {
+          width: 17px;
+        }
+      }
+    }
+  }
+
 }

@@ -498,8 +498,10 @@
         grid-auto-rows: 136px;
       }
       @include mobiles {
-        display: block;
+        display: flex;
         padding-top: 0;
+        flex-direction: column;
+        align-items: center;
       }
 
       &_item {
@@ -511,6 +513,8 @@
             margin-bottom: 80px;
             justify-content: flex-start;
           }
+          max-width: 320px;
+          width: 100%;
         }
 
         &.even-column {
@@ -546,6 +550,9 @@
           margin: auto 0 auto 45px;
           @include tablets {
             margin-left: 20px;
+          }
+          @include mobiles {
+            margin-left: 0;
           }
 
           max-width: 250px;

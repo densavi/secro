@@ -157,10 +157,17 @@
   &_overflow {
     &.fixed {
       position: fixed;
-      left: 0;
-      width: 100%;
+      left: auto;
+      right: auto;
       top: 15px;
-      z-index: 5;
+      @include mobiles {
+        width: 100%;
+        top: 67px;
+        z-index: 5;
+        background: #fff;
+        padding: 15px 0 0 15px;
+      }
+      
     }
     @include mobiles {
       width: 100%;
@@ -185,6 +192,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    position: relative;
     @include mobiles {
       max-width: 100%;
       flex-direction: row;
