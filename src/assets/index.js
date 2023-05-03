@@ -128,3 +128,4 @@ export {default as HomeIcon3} from './images/new/home-icon-3.svg';
 
 export {default as FeaturesIcon1} from './images/new/features-1.svg';
 export {default as FeaturesIcon2} from './images/new/features-2.svg';
+export {default as FeaturesIcon3} from './images/new/features-3.svg';

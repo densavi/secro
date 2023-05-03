@@ -13,6 +13,7 @@ import {
   ContributorsIcon,
   NotaryIcon,
   FeaturesIcon1, FeaturesIcon2,
+    FeaturesIcon3,
 } from '~/assets';
 
 import styles from './Features.module.scss';
@@ -74,7 +75,7 @@ const Features = () => {
     },
 
     {
-      icon: <NotaryIcon />,
+      icon: <FeaturesIcon3 />,
       title: 'Notary',
       description: "Secro Digital Notary records in an immutable manner each eBL, every entity and action involved in the eBL lifecycle. Thanks to private blockchain and PKI technology, this service increases trustworthiness and security of every transaction, both on and off-platform with a simple scan of the eBL QR code."
     },
