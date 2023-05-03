@@ -12,6 +12,7 @@ import {
   Features_Partner_6,
   ContributorsIcon,
   NotaryIcon,
+  FeaturesIcon1, FeaturesIcon2,
 } from '~/assets';
 
 import styles from './Features.module.scss';
@@ -25,7 +26,7 @@ const Features = () => {
 
   const FeaturesList = [
     {
-      icon: <Features_doc />,
+      icon: <FeaturesIcon1 />,
       title: "KYC KYB AML Compliance Solution",
       description: "Integrated state of the art Identity, Corporate verifications, Anti Money Laundering screening against global watchlists to combat digital fraud, and financial crimes. ",
       partners: [
@@ -67,7 +68,7 @@ const Features = () => {
     },
 
     {
-      icon: <Features_doc />,
+      icon: <FeaturesIcon2 />,
       title: 'Invite Trading Partners',
       description: "Scale your network of partners on Secro with this built-in feature, available to all customers, anywhere on the platform. With just a few clicks, invite shipper, consignee, or ship owner to seamlessly collaborate on the bill of ladings. Your counterpart will gain access to the platform upon completion of a quick and self-guided onboarding.  "
     },

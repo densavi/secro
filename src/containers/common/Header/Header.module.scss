@@ -175,11 +175,11 @@
         opacity: 0;
       }
       &:before {
-        transform: rotate(50deg);
+        transform: rotate(45deg);
         top: 50%;
       }
       &:after {
-        transform: rotate(-50deg);
+        transform: rotate(-45deg);
         top: 50%;
       }
     }

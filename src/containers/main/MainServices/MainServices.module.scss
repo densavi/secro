@@ -3,7 +3,7 @@
 }
 
 .container {
-  max-width: $home_container + 30px;
+  max-width: $home_container + 155px;
   width: 100%;
   margin: auto;
   padding: 60px 15px;
@@ -176,7 +176,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 64px;
   }
   &__pill {
     margin-left: 16px;

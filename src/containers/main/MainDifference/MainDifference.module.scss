@@ -58,13 +58,19 @@
 
     @include phones {
       top: auto;
-      right: 50%;
-      transform: translateX(50%);
+      right: auto;
+      transform: translate(0,0);
       width: 100%;
-      padding: 0 15px;
-
+      padding: 0;
+      position: static;
+      margin-bottom: 80px;
+      display: flex;
+      justify-content: center;
+      max-width: 100%;
       svg {
-        height: 250px;
+        height: auto;
+        display: flex;
+        margin: 0 auto;
       }
     }
   }

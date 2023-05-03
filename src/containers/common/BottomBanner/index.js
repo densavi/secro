@@ -5,8 +5,8 @@ import {Typography, Button} from '~/components';
 
 import styles from './BottomBanner.module.scss';
 
-const BottomBanner = ({title, text, buttonText, route, onClick}) => (
-  <section className={styles.container}>
+const BottomBanner = ({title, text, buttonText, route, onClick, id}) => (
+  <section className={styles.container} id={id}>
     <div className="container">
       <div className={styles.container__inner}>
         <p className={styles.container__inner_text}>

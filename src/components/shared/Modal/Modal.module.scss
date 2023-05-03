@@ -92,10 +92,10 @@ $root: &;
     display: inline-block;
     border-radius: 8px;
     position: relative;
-    width: min-content;
+    width: 640px;
     box-shadow: 0 16px 32px rgba(4, 9, 33, 0.15);
-    overflow: auto;
-    max-height: calc(100vh - 100px);
+    overflow: hidden;
+    max-height: 500px;
     margin: 50px 0;
     @include mobiles {
       width: calc(100% - 40px);

@@ -63,6 +63,13 @@ export {default as Features_Partner_6} from './images/features/partner6.png';
 // CompanyIcons
 export {default as ChipIcon} from './icons/company/chip.svg';
 export {default as GroupIcon} from './icons/company/group.svg';
+export {default as GroupIconNew} from './images/new/group-icon.svg';
+export {default as LeafIconNew} from './images/new/leaf-icon.svg';
+export {default as HouseIconNew} from './images/new/house-icon.svg';
+export {default as HammerIconNew} from './images/new/hammer-icon.svg';
+export {default as ChipIconNew} from './images/new/chip-icon.svg';
+
+
 export {default as HammerIcon} from './icons/company/hammer.svg';
 export {default as HouseIcon} from './icons/company/house.svg';
 export {default as LeafIcon} from './icons/company/leaf.svg';
@@ -114,4 +121,10 @@ export {default as Partner8} from './images/partners/partner8.svg';
 
 export {default as In} from './images/in.svg';
 
+export {default as HomeIcon1} from './images/new/home-icon-1.svg';
+export {default as HomeIcon2} from './images/new/home-icon-2.svg';
+export {default as HomeIcon3} from './images/new/home-icon-3.svg';
 
+
+export {default as FeaturesIcon1} from './images/new/features-1.svg';
+export {default as FeaturesIcon2} from './images/new/features-2.svg';

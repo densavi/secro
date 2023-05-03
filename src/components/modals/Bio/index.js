@@ -8,14 +8,17 @@ import {Typography} from '~/components';
 import {CrossIcon} from '~/assets';
 import {ModalContext} from '~/context';
 
+import { useIntl } from 'react-intl';
+
 import {
   In
 } from '~/assets';
 
 const Bio = ({teamMember}) => {
   const {closeModal} = useContext(ModalContext);
-
+  const intl = useIntl();
   const {name, avatar} = teamMember;
+  const linkedinUrl = intl.formatMessage({ id: `company.team.people.${name}.linkedin` });
 
   return (
     <div className={styles.container}>
@@ -28,30 +31,36 @@ const Bio = ({teamMember}) => {
             <Image src={avatar} alt={`Secro team member: ${name}`} />
           </div>
           <div className={styles.container__info}>
-            <Typography className={styles.container__info_name} variant="Heading">
+            <Typography
+                className={styles.container__info_name}
+                variant="Heading"
+            >
               <FormattedMessage id={`company.team.people.${name}.name`} />
             </Typography>
             <Typography className={styles.container__info_role}>
               <FormattedMessage id={`company.team.people.${name}.role`} />
             </Typography>
+
+            {linkedinUrl && (
             <ul className={styles.container__socials}>
               <li>
-                <a href="#" target="_blank">
+                <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
                   <In />
                 </a>
               </li>
             </ul>
+            )}
           </div>
         </div>
-       
         <div className={styles.container__info_bio}>
           <FormattedMessage
             id={`company.team.people.${name}.bio`}
-            values={{br: <br />}}
+            values={{
+              br: <br />,
+            }}
           />
         </div>
       </div>
-      
     </div>
   );
 };

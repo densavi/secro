@@ -4,10 +4,10 @@ import {Typography} from '~/components';
 import {
   ArrowsRound,
   BimcoImg,
-  Ebill,
-  Doc,
   IgpIImg,
-  Papers,
+  HomeIcon1,
+  HomeIcon2,
+  HomeIcon3,
 } from '~/assets';
 import MainServicesItem from './MainServicesItem';
 import styles from './MainServices.module.scss';
@@ -18,19 +18,19 @@ const MainServices = () => {
       {
         title: 'mainServices.list1.title',
         text: 'mainServices.list1.text',
-        icon: Ebill,
+        icon: HomeIcon1,
         route: '/features',
       },
       {
         title: 'mainServices.list3.title',
         text: 'mainServices.list3.text',
-        icon: Doc,
+        icon: HomeIcon2,
         route: '/features',
       },
       {
         title: 'mainServices.list4.title',
         text: 'mainServices.list4.text',
-        icon: Papers,
+        icon: HomeIcon3,
         route: '/features',
       },
     ];

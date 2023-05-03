@@ -7,15 +7,15 @@ import styles from './Company.module.scss';
 import {BioModal, Typography, TeamModal} from '~/components';
 import {
   ArrowRight,
-  ChipIcon,
+  ChipIconNew,
   CompanyNew,
   CompanyPlanning1,
   CompanyPlanning2,
   CompanyPlanning3,
-  GroupIcon,
-  HammerIcon,
-  HouseIcon,
-  LeafIcon,
+  GroupIconNew,
+  HammerIconNew,
+  HouseIconNew,
+  LeafIconNew,
 } from '~/assets';
 import {secroTeam, advisors, directors} from '~/mock';
 import {ModalContext} from '~/context';
@@ -28,8 +28,7 @@ const Advisory = ({title, list}) => {
   const handleTeam = (advisor) => () => {
     openModal(<TeamModal advisor={advisor} />);
   };
-  // console.log(directors);
-  // console.log(list);
+
   return (
     <div className={styles.container__advisory}>
       <Typography
@@ -161,8 +160,6 @@ const Company = () => {
               <FormattedMessage id="company.story.author" />
             </Typography> */}
           </div>
-
-        
           <div className={styles.container__values}>
             <Typography
               variant="Heading"
@@ -177,12 +174,12 @@ const Company = () => {
                 <div className={styles.container__values__blocks_block_title}>
                   <div
                     className={styles.container__values__blocks_block_title_icon}>
-                    <GroupIcon />
+                    <GroupIconNew />
                   </div>
-                  <Typography
-                    className={styles.container__values__blocks_block_title_text}>
-                    <FormattedMessage id="company.values.rows.customer.title" />
-                  </Typography>
+                  {/*<Typography*/}
+                  {/*  className={styles.container__values__blocks_block_title_text}>*/}
+                  {/*  <FormattedMessage id="company.values.rows.customer.title" />*/}
+                  {/*</Typography>*/}
                 </div>
                 <Typography
                   className={styles.container__values__blocks_block__description}>
@@ -193,12 +190,12 @@ const Company = () => {
                 <div className={styles.container__values__blocks_block_title}>
                   <div
                     className={styles.container__values__blocks_block_title_icon}>
-                    <LeafIcon />
+                    <LeafIconNew />
                   </div>
-                  <Typography
-                    className={styles.container__values__blocks_block_title_text}>
-                    <FormattedMessage id="company.values.rows.resource.title" />
-                  </Typography>
+                  {/*<Typography*/}
+                  {/*  className={styles.container__values__blocks_block_title_text}>*/}
+                  {/*  <FormattedMessage id="company.values.rows.resource.title" />*/}
+                  {/*</Typography>*/}
                 </div>
                 <Typography
                   className={styles.container__values__blocks_block__description}>
@@ -209,12 +206,12 @@ const Company = () => {
                 <div className={styles.container__values__blocks_block_title}>
                   <div
                     className={styles.container__values__blocks_block_title_icon}>
-                    <HouseIcon />
+                    <HouseIconNew />
                   </div>
-                  <Typography
-                    className={styles.container__values__blocks_block_title_text}>
-                    <FormattedMessage id="company.values.rows.community.title" />
-                  </Typography>
+                  {/*<Typography*/}
+                  {/*  className={styles.container__values__blocks_block_title_text}>*/}
+                  {/*  <FormattedMessage id="company.values.rows.community.title" />*/}
+                  {/*</Typography>*/}
                 </div>
                 <Typography
                   className={styles.container__values__blocks_block__description}>
@@ -225,12 +222,12 @@ const Company = () => {
                 <div className={styles.container__values__blocks_block_title}>
                   <div
                     className={styles.container__values__blocks_block_title_icon}>
-                    <HammerIcon />
+                    <HammerIconNew />
                   </div>
-                  <Typography
-                    className={styles.container__values__blocks_block_title_text}>
-                    <FormattedMessage id="company.values.rows.trade.title" />
-                  </Typography>
+                  {/*<Typography*/}
+                  {/*  className={styles.container__values__blocks_block_title_text}>*/}
+                  {/*  <FormattedMessage id="company.values.rows.trade.title" />*/}
+                  {/*</Typography>*/}
                 </div>
                 <Typography
                   className={styles.container__values__blocks_block__description}>
@@ -241,12 +238,12 @@ const Company = () => {
                 <div className={styles.container__values__blocks_block_title}>
                   <div
                     className={styles.container__values__blocks_block_title_icon}>
-                    <ChipIcon />
+                    <ChipIconNew />
                   </div>
-                  <Typography
-                    className={styles.container__values__blocks_block_title_text}>
-                    <FormattedMessage id="company.values.rows.technology.title" />
-                  </Typography>
+                  {/*<Typography*/}
+                  {/*  className={styles.container__values__blocks_block_title_text}>*/}
+                  {/*  <FormattedMessage id="company.values.rows.technology.title" />*/}
+                  {/*</Typography>*/}
                 </div>
                 <Typography
                   className={styles.container__values__blocks_block__description}>
@@ -302,7 +299,7 @@ const Company = () => {
           <div className={styles.container__peoples}>
             <Team />
             <Advisory title={<FormattedMessage id="company.advisor.titleDirectors" />} list={advisors} />
-            {/* <Advisory title={<FormattedMessage id="company.advisor.titleAdvisors" />} list={} /> */}
+             <Advisory title={<FormattedMessage id="company.advisor.titleAdvisors" />} list={directors} />
           </div>
 
         </div>
@@ -313,6 +310,8 @@ const Company = () => {
         text="common.bottomBanner.vision"
         buttonText="common.bottomBanner.letsTalk"
         route={Routes.ContactUs}
+        className={styles.company_bottom}
+        id="company_bottom_banner"
       />
     </>
   );

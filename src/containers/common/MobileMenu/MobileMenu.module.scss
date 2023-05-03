@@ -37,7 +37,6 @@
       }
       a {
         font-weight: 500;
-        font-size: 20px;
         color: #828282;
         font-family: $secondary_family;
         text-transform: uppercase;
@@ -46,4 +45,8 @@
       }
     }
   }
+}
+
+.MobileMenu__nav_text_active {
+  color: #000 !important;
 }

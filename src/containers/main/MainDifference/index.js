@@ -28,12 +28,18 @@ const MainDifference = () => {
           slidesPerView={1}
           centeredSlides={true}
           loop={true}
+          autoHeight={true}
           pagination={{
             clickable: true,
           }}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false,
+          }}
+          breakpoints={{
+            575: {
+              autoHeight: false,
+            },
           }}
           className="swiper__main">
           <SwiperSlide>

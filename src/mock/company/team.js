@@ -1,8 +1,10 @@
 import MicheleAvatar from '../../assets/images/company/team/michele.png';
-import LukeAvatar from '../../assets/images/company/team/luke.png';
-import EdwardAvatar from '../../assets/images/company/team/edward.png';
-import LeonardoAvatar from '../../assets/images/company/team/leonardo.png';
-import GregoryAvatar from '../../assets/images/company/team/gregory.png';
+import PiotrAvatar from '../../assets/images/new/piotr.png';
+import AlexeyAvatar from '../../assets/images/new/alexey.png';
+import ViktorAvatar from '../../assets/images/new/viktor.png';
+import MonikaAvatar from '../../assets/images/new/monika.png';
+import DasckaAvatar from '../../assets/images/new/dascka.png';
+import AudunAvatar from '../../assets/images/new/audun.png';
 
 export const secroTeam = [
   {
@@ -10,19 +12,27 @@ export const secroTeam = [
     avatar: MicheleAvatar,
   },
   {
-    name: 'luke',
-    avatar: LukeAvatar,
+    name: 'piotr',
+    avatar: PiotrAvatar,
   },
   {
-    name: 'edward',
-    avatar: EdwardAvatar,
+    name: 'alexey',
+    avatar: AlexeyAvatar,
   },
   {
-    name: 'leonardo',
-    avatar: LeonardoAvatar,
+    name: 'viktor',
+    avatar: ViktorAvatar,
   },
   {
-    name: 'gregory',
-    avatar: GregoryAvatar,
+    name: 'monika',
+    avatar: MonikaAvatar,
+  },
+  {
+    name: 'dascka',
+    avatar: DasckaAvatar,
+  },
+  {
+    name: 'audun',
+    avatar: AudunAvatar,
   },
 ];

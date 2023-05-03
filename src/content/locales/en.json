@@ -251,62 +251,83 @@
       "rows": {
         "customer": {
           "title": "Customers",
-          "description": "We are at the service of our customers"
+          "description": "Customers are our priority"
         },
         "resource": {
           "title": "Resources",
-          "description": "We invest the most of our resources into our associates and their growth"
+          "description": "Our employees are at the core of our success and we believe and invest in their growth"
         },
         "community": {
           "title": "Community",
-          "description": "We support local and underprivileged communities around the world"
+          "description": "With our platform, we can level the playing field and allow communities around the world to be take part in global trade"
         },
         "trade": {
           "title": "Global trade",
-          "description": "We want help making global trade fairer and more transparent"
+          "description": "We want to provide transparency and equity to sophisticated global networks"
         },
         "technology": {
           "title": "Technologies",
-          "description": "We want to democratize access to our technologies and services to the benefit of any customer on earth"
+          "description": "We want to democratize access to our technology and services to benefit all potential customers"
         }
       }
     },
+
+
+
+
     "planning": {
       "title": "A UNIQUE COMBINATION OF TECHNOLOGY, LEGAL AND INDUSTRY EXPERTISE",
-      "description1": "We are word-class technology, legal and industry veterans with a unique mix of diversified competences and experiences. What brings us together are professional and personal tiers that we fostered over the years, making Secro a cohesive and passionate team.",
-      "description2": "As we transparently trust and deeply respect each other, so we do with our customers and partners, striving not only to deliver cutting edge technology but above all looking forward to building long-lasting, successful relationships."
+      "description1": "Our team is comprised of worldclass technology, legal and industry veterans that bring a unique mix of diversified competences and experiences. Our passion and commitment to the industry fostered over the years has brought us together and made a cohesive team.",
+      "description2": "We believe that the same trust and respect we have internally, should be mirrored towards our customers and partners. As we deliver cutting edge technology, we look forward to building long lasting, successful relationships with our customers and partners alike."
     },
     "history": {
       "title": "OUR PAST, PRESENT AND FUTURE",
       "description": "With the goal of expanding our portfolio of services and growing our business across multiple industries, we are executing on an ambitious roadmap. We see our trajectory making us the leader in cross border trade digitization."
     },
     "team": {
-      "title": "SECRO TEAM",
+      "title": "Core Team",
       "people": {
         "michele": {
           "name": "michele sancricca",
-          "role": "CEO and CTO",
-          "bio": "Based in Charleston, SC, former Global CTO for supply chain and logistics for AWS and responsible for the growth of a revenue stream worth $340MM (CAGR +44% YoY), previously Head of Supply Chain Products for Amazon Global Mile with a $275MM P&L responsibility, as well as Director of Digital Transformation for MSC (the largest ocean carrier in the world). {br} {br} Michele has extensive experience in delivering complex projects and technology platforms in the space of global supply chains. He built from scratch and led multiple, successful teams both in public companies and in the military. {br} {br} Michele founded a successful tech-consultancy firm in 2017, Bellatrix Advisors LLC. A Harvard Business School graduate, he also holds an MBA in Shipping and Logistics from the Middlesex University of London and a MS in Naval Science from the Italian Naval Academy. {br} {br} Michele is a retired Lieutenant Commander of the Italian Navy."
+          "role": "Co Founder and CEO",
+          "bio": "Michele Sancricca is the co-founder and CEO of Secro Inc. Former Global Head for supply chain and logistics for AWS, Michele previously worked also in the capacity of Head of Supply Chain Products for Amazon Global Mile and as Director of Digital Transformation for MSC (the largest ocean carrier in the world). {br} {br} Michele has extensive experience in delivering complex projects and technology platforms in the space of global supply chains. He built from scratch and led multiple, successful teams both in public companies and in the military. Michele is a retired Lieutenant Commander of the Italian Navy who served in active duty onboard carriers, destroyers and frigates.",
+          "linkedin": "https://www.linkedin.com/in/michelesancricca/"
         },
-        "luke": {
-          "name": "Luke Zadkovich",
-          "role": "Board Director",
-          "bio": "Panama-based, Luke is an attorney at waw who co-founded ZFZ, a successful global law firm He brings an extensive network spanning the cross-border trade industry, and in-depth expertise as international commercial lawyer, English solicitor, New York attorney, Australian (NSW) solicitor. {br} {br} Luke holds a Master of Laws (LLM) - International Business Law from the King’s College of London."
+        "piotr": {
+          "name": "Piotr Cichocki",
+          "role": "Managing Director Europe",
+          "bio": "Managing Director, EMEA Former President of Polsteam USA. From ship chartering to ship management to port management to company management to M&A transaction management. {br} {br} Piotr is an open minded, disciplined, restless team player and maritime expert. Over 22 years of experience in various management positions with a major integrated dry bulk shipowner. Last 3 years in restructuring and M&A managerial position with a major Polish Stock Exchange listed logistics and transportation capital group. {br} {br} Currently in investment advisory position with biggest Polish shipowner.",
+          "linkedin": "https://www.linkedin.com/in/piotr-cichocki-b3641886/"
         },
-        "edward": {
-          "name": "Edward Floyd",
-          "role": "Board Director",
-          "bio": "NYC-based, Ed co-founded ZFZ with Luke. He is a commercial litigator with extensive experience representing clients in connection with complex disputes involving maritime transportation, the commodities trading industry, and other international and domestic matters. {br} {br} Ed holds a Juris Doctor degree from Fordham University and a MS from the US Naval Academy. He served as an Officer with the US Marine Corp."
+        "alexey": {
+          "name": "Aleksey Kucherov",
+          "role": "Head of Engineering",
+          "bio": "Poland based, Aleksey has over 13 years of practice in tech development. His sophisticated and complex experience in the financial sector, marketing, blockchain, data collection and high load processing and supply chain have led him to be the head of engineer in various capacities. {br} {br} Highly notable areas of expertise are his involvement in design of custom protocols, process execution and data transfer optimization. He has an MSc in Data security, and as such, his passion and priorities revolve around it. His vast knowledge allows him to easily navigate the complexities of  leading a highly advanced team within the tech sector. This also motivates him to continue expanding his knowledge while mentoring and coaching his team members.",
+          "linkedin": "https://www.linkedin.com/in/aleksey-kucherov/"
         },
-        "leonardo": {
-          "name": "Leonardo Ferrisi",
-          "role": "COO",
-          "bio": "New York-based, Leonardo has 20 years of experience as commercial and operational executive in cross border trade and maritime logistics. Currently Global Sales Director with MSC, he previously held the role of Chief Commercial Officer and MD of the Caribbean for Svitzer, a subsidiary of  the Maersk group. He formerly worked as VP of Operations for MSC US.{br}{br} Leonardo graduated from Harvard Business School and he holds a MS in Naval Science from the Italian Naval Academy, being himself a retired IT Navy Lieutenant."
+        "viktor": {
+          "name": "Viktor Mikulin",
+          "role": "Technical Product Manager",
+          "bio": "Technical Product Manager with 12 years diversified domain knowledge (logistics, fintech, renewables, healthcare, construction etc.). Have MSc in Computer Science from National Technical University of Ukraine and MSc in Finance from National Economic University of Ukraine. {br} {br} Viktor is proactive, open to inspection and adoption, structure-minded, disciplined and passionate about new approaches with smooth practicing. Last 4 years he has been focusing exceptionally on developing tech products. He has been a part of Secro team from inception.",
+          "linkedin": "https://www.linkedin.com/in/viktor-mikulin-a057711b0/"
         },
-        "gregory": {
-          "name": "Gregory Otto",
-          "role": "CFO and Chief Investment Officer",
-          "bio": "New Jersey-based, Greg founded Steamboat Capital, a maritime investment firm.{br}{br} He is also a board member of Monmouth Real Estate Investment Corporation, a public Real Estate Investment Trust. A former US State Department Officer, he is currently attending an EMBA at the Oxford University (candidate 2023) and holds a degree in Intermodal Logistics Transportation from the US Merchant Marine Academy and a MA in National Security Policy from the US Naval War College.{br}{br}Greg is a Lieutenant Commander of the US Navy Reserve."
+        "monika": {
+          "name": "Monika Wisniowska",
+          "role": "Director Client Success",
+          "bio": "Chicago based, Monika started her professional career at Mediterranean Shipping Company in 2008 where she held several different roles within documentation and commercial departments. {br} {br} The knowledge and experience she gained at MSC helped her build a strong foundation for her next role as Director of Operations within a paper trading company. She then, joined a fintech company, Onbe as a Senior Account Manager, overseeing a diverse portfolio of clients with global accounts. She then took on the role of Director of Client Success, leading a team of nine high-performing managers and specialists, with a portfolio of 80+ client accounts. In her previous endeavor in fintech, she was tasked to build the new company role of Technical Program Manager, overseeing a development of an enterprise platform of the two merged companies. Her Industry experience, combined with the extended customer relationship management and product development paved my way out to Secro",
+          "linkedin": "https://www.linkedin.com/in/monikawisniowska/"
+        },
+        "dascka": {
+          "name": "Dascka Serrano",
+          "role": "Director of Operations",
+          "bio": "New York based, Dascka has over 13 years of various management positions and her experience includes maritime logistics, project management, human capital, key accounts management, and organizational transformation. {br} {br} Throughout her tenure, her role also included mentoring to young professionals, managing and leading organizational changes on a nationwide scale. Dascka obtained her Bachelor of Science in International Business from Rutgers University. As she started her career with MSC (the largest ocean carrier in the world), she held both administrative and managerial roles working directly with C+ level executives while overseeing and managing the NY headquarters and later the Chicago office with 270 and 140 employees respectively at the time. She also held a HRBP leadership role that encompassed 4 different locations /business areas across the East coast (responsible for 26% of human capital nationwide) and provided support and guidance to both operational and commercial areas to meet respective organizational goals.",
+          "linkedin": "https://www.linkedin.com/in/Dascka/"
+        },
+        "audun": {
+          "name": "Audun Mikalsen",
+          "role": "Director of Business Development",
+          "bio": "Audun has more than 25 years of experience in the maritime industry and started his professional career working as a ship agent in the then family-owned ship agency business in Norway, founded by his great-grandfather back in 1917. He also trained and worked as a commercial diver and diving instructor before serving in the Royal Norwegian Navy. Later he moved on to international business development and sales of ship agency, logistics, maritime security and digital navigation (SaaS) solutions to ship managers located worldwide. This included building up and managing networks of sales agents and distributors across Latin America, Africa and the Middle East. Audun has first-hand experience of helping ship managers seamlessly move from paper to digital charts and logbooks and is now — as part of the Secro team — keen to help businesses on their digitisation journey when they move away from physical trade documentation. Audun is a Fellow of the Royal Geographical Society and a University of Cambridge alumnus with a Master of Philosophy degree in Latin American Studies.",
+          "linkedin": "https://www.linkedin.com/in/audunmikalsen/"
         }
       }
     },
@@ -314,27 +335,66 @@
       "titleDirectors": "Board of Directors",
       "titleAdvisors": "Advisors",
       "people": {
-        "piotr": {
-          "name": "Piotr Cichocki",
-          "role": "Former President of {link}",
-          "linkText": "Polsteam USA."
+        "jeff": {
+          "name": "Jeff Conway",
+          "role": "Independent Director of the Board",
+          "bio": "Advisor Jeff Conway is a financial services leader, board director, and business advisor with a long tenure and legacy at State Street Corporation and, most recently, HSBC Group for driving strategic growth and organizational transformations. {br} {br} Recognized for his ability to transform the organization’s most critical business issues through the coupling of strategy and outstanding execution, Jeff has enjoyed success in creating groundbreaking client experience transformations and digital technology change worldwide. Previously, Jeff was the Non-Executive Chairman at Universal Investment Group, a European based investment company, and served on the Board of Directors for Mercatus, a software provider of private market investment solutions, as well as the Advisor Board of Quantexa, a contextual decisioning technology. At HSBC, Jeff was the Global Chief Operating Officer for the Investment and Commercial Banksin support of $20B annual revenues with oversight of over 25,000 employees globally and a technology spend of $5billion per annum.",
+          "linkedin": "https://www.linkedin.com/in/jeffdconway/"
         },
-        "edgar": {
-          "name": "Edgar Sabounghi",
-          "role": "Former Managing Director Morgan Stanley and hedge fund COO."
+        "michele": {
+          "name": "Michele Sancricca",
+          "role": "Co-founder and CEO",
+          "bio": "Michele Sancricca is the co-founder and CEO of Secro Inc. Former Global Head for supply chain and logistics for AWS, Michele previously worked also in the capacity of Head of Supply Chain Products for Amazon Global Mile and as Director of Digital Transformation for MSC (the largest ocean carrier in the world). {br} {br} Michele has extensive experience in delivering complex projects and technology platforms in the space of global supply chains. He built from scratch and led multiple, successful teams both in public companies and in the military. Michele is a retired Lieutenant Commander of the Italian Navy who served in active duty onboard carriers, destroyers and frigates.",
+          "linkedin": "https://www.linkedin.com/in/michelesancricca/"
         },
-        "damon": {
-          "name": "Damon Thompson",
-          "role": "Former Sr. Legal Counsel at Gazprom."
+        "sonali": {
+          "name": "Sonali Vijayavargiya",
+          "role": "Director of the Board",
+          "bio": "Sonali is Founder and Managing Partner of Augment Ventures. Augment invests in early-stage B2B SaaS companies creating digital and data automation products to transform traditional industries making them more efficient, productive, and sustainable. {br} {br} Recent successes in her portfolio include AI-based supply chain software company, LLamasoft that was sold for $1.5 Billion to Coupa Software. Over the last 25 years, Sonali has worked with several successful entrepreneurs and mentored many teams to turn new ideas into reality. Prior to starting her VC career, she worked in India with IDBI, PwC and Edelweiss, taking companies to NASDAQ and Bombay Stock Exchange. Sonali serves/has served on the Boards of Rivet, Crowdz, Flume, Perennial, Akitra, Conversight.ai, Mercatus, Fluree, and LLamasoft. She is advisor to the Zell Lurie Commercialization Fund at the University of Michigan Ross Business School.",
+          "linkedin": "https://www.linkedin.com/in/augmentventures/"
         },
-        "nick": {
+        "luke": {
+          "name": "Luke Zadkovich",
+          "role": "Co-founder, Non-Executive Director",
+          "bio": "Luke is an attorney at law who co-founded ZFZ, a successful global law firm focused primarily on international trade. He brings an extensive network spanning the cross-border trade industry, and in-depth expertise as international commercial lawyer, English solicitor advocate, New York attorney, and Australian (NSW) solicitor. {br} {br} Luke holds a Master of Laws (LLM) - International Business Law from the King’s College of London, and a Bachelor of Laws (Hons) / Bachelor of Politics (Dist.) from the University of Wollongong. Luke’s LLM dissertation (written over 12 years ago) focused on moving paper-based commodity trading to electronic platforms, and the legal challenges involved. His passion for this business is deep-seated. Luke splits his time between New York, London and Panama.",
+          "linkedin": "https://www.linkedin.com/in/luke-zadkovich-a24a7697/"
+        },
+
+        "edward_f": {
+          "name": "Edward Floyd",
+          "role": "Co-founder and Advisor",
+          "bio": "NYC-based, Ed co-founded ZFZ with Luke. He is a commercial litigator with extensive experience representing clients in connection with complex disputes involving maritime transportation, the commodities trading industry, and other international and domestic matters. {br} {br} Ed is admitted as a New York and New Jersey attorney and an English solicitor. Ed holds a Juris Doctor degree from Fordham University and a MS from the US Naval Academy. He served as an Officer with the US Marine Corps.",
+          "linkedin": "https://www.linkedin.com/in/edward-floyd-9121289/"
+        },
+        "gregory_o": {
+          "name": "Gregory Otto",
+          "role": "Advisor and angel investor",
+          "bio": "Greg is the CEO of Seapath. Prior to this role, he worked on several maritime entrepreneurial endeavors and before that in various maritime-centric roles at the U.S. Department of State. He is also a U.S. Navy Reserve Officer and holds a valid unlimited tonnage U.S. Coast Guard third officer’s license. {br} {br} Greg is an angel investor and board advisor to Secro, a cross-border trade tech and financing company, and a board of directors member at HarborRock, a sustainable sediment management company. Greg has a B.S. in Intermodal Logistics from the U.S. Merchant Marine Academy, an M.A. in National Security & Strategy from the U.S. Navy War College, and an Executive MBA from Saïd Business School at Oxford University.",
+          "linkedin": "https://www.linkedin.com/in/gregory-otto/"
+        },
+        "nick_t": {
           "name": "Nick Taranto",
-          "role": "Serial Founder, CEO & Founder of {link}",
-          "linkText": "Plated."
+          "role": "Advisor and angel investor",
+          "bio": "Nick is an entrepreneur, company builder, and early-stage investor. Early on in his career, he started the ecommerce business, Plated. {br} {br} In less than five years, after starting with only 1 cofounder, Nick and the team scaled to over 1,000 employees and went from zero to $150M in revenue. He then, sold his first venture-backed company to Albertsons in 2017. {br} {br} He is a graduate of Harvard Business School, and served as an Infantry Officer in the US Marine Corps. He now lives in Santa Monica, California with his family",
+          "linkedin": "https://www.linkedin.com/in/nicktaranto/"
         },
-        "sunil": {
-          "name": "Dr. Sunil Gupta",
-          "role": "E. Carter Professor of business Harvard Business School."
+        "robert_s": {
+          "name": "Robert Sacco",
+          "role": "Advisor",
+          "bio": "Bob was IBM Managing Director, Finance Sector, prior to that VP, Financial Services Sector, and Principal and Founding Partner, IBM Supply Chain Solutions where he led the sales and marketing effort to launch global supply chain solution start-up business with branded application software and services. {br} {br} Bob grew global accounts as a rainmaker, player-coach, and trusted advisor, constructing multifaceted win-win agreements that drove high client value by deeply understanding client business needs and pain points, leveraging the organization’s portfolio of offerings, and aligning with client strategic priorities to deliver committed outcomes. He works with the Fortune 500 as well as emerging technology firms looking to penetrate new markets, grow and expand their customer base. He has led the design and deployment of sales transformation initiatives, encompassing people, process, and technology to create value for clients.",
+          "linkedin": "https://www.linkedin.com/in/bob-sacco/"
+        },
+        "richard_w": {
+          "name": "Richard Watts",
+          "role": "Advisor",
+          "bio": "Richard has spent his entire career working within the maritime industry with a particular focus on the carriage of physical commodities. {br} {br} After 7 years working for two of the leading independent rice trading companies, Richard created HR Maritime in 2008 in order to provide bespoke professional services and training to the Trading and Shipping Industry. HR Maritime enjoys a wide range of clients both in Geneva and in the wider Shipping and Trading Community. {br} {br} Richard has a passion for teaching and assisting companies to reduce inefficiencies wherever possible. Richard also works extensively with exporters and importers from less developed countries to help them access the global market and increase their involvement in the entire value chain. {br} {br} Richard is increasingly focusing on the requirements and opportunities presented by the need for decarbonisation and more generally achieving sustainability in the business of Trading, Shipping, Finance and supply chain logistics. {br} {br} Richard is the President of the Geneva branch of The Propeller Club and a Fellow of The Institute of Chartered Shipbrokers. Unrelated to his daily work but a source of immense pride, Richard is also the President of SOS Mediterrannee Suisse.",
+          "linkedin": "https://www.linkedin.com/in/richard-watts-hr-maritime/"
+        },
+        "Leonardo_f": {
+          "name": "Leonardo Ferrisi",
+          "role": "Advisor, angel investor and Secretary",
+          "bio": "New York-based, Leonardo has 20 years of experience as commercial and operational executive in cross border trade and maritime logistics. {br} Currently Global Sales Director with MSC, he previously held the role of Chief Commercial Officer and MD of the Caribbean for Svitzer, a subsidiary of the Maersk group. {br} {br} He formerly worked as VP of Operations for MSC US. Leonardo graduated from Harvard Business School, and he holds a MS in Naval Science from the Italian Naval Academy, being himself a retired IT Navy Lieutenant.",
+          "linkedin": "https://www.linkedin.com/in/leonardo-f-305983116/"
         }
       }
     },

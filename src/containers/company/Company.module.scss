@@ -2,7 +2,11 @@
   margin-top: 110px;
   display: flex;
   flex-direction: column;
-
+  + .BottomBanner_container__hPqMZ {
+    @include mobiles {
+      display: none;
+    }
+  }
   &__title {
     font-size: 64px !important;
     font-weight: 500;
@@ -17,13 +21,14 @@
 
     @include tablets {
       font-size: 40px !important;
-      margin-top: 80px;
+      margin-top: 25px;
     }
 
     @include mobiles {
       font-size: 36px !important;
       text-align: left;
       margin-bottom: 24px;
+      line-height: 53px !important;
     }
 
   }
@@ -165,7 +170,7 @@
 
       &_block {
         max-width: 308px;
-        width: auto;
+        width: 100%;
         margin-bottom: 100px;
         margin-right: 60px;
         @media (max-width: 1280px) {
@@ -213,11 +218,11 @@
         }
 
         &__description {
-          margin-top: 19px;
-          font-weight: normal;
+          margin-top: 16px;
+          font-weight: 600;
           font-size: 18px !important;
           line-height: 28px !important;
-          color: $gray_3;
+          color: #000;
         }
       }
     }
@@ -342,10 +347,11 @@
     }
 
     &_title {
-      font-weight: 500;
+      font-weight: 500 !important;
       font-size: 36px !important;
       line-height: 64px !important;
       text-align: center;
+      text-transform: uppercase;
       @include mobiles {
         font-size: 28px !important;
         line-height: 41px !important;
@@ -507,19 +513,28 @@
       &_item {
         display: flex;
         align-items: center;
-        justify-content: center;
+        //justify-content: center;
+        @media (max-width: 1024px) {
+          justify-content: center;
+        }
+        @media (min-width: 1024px) {
+          padding-left: 100px;
+        }
+
         @include mobiles {
           &:not(:last-child) {
             margin-bottom: 80px;
-            justify-content: flex-start;
           }
           max-width: 320px;
           width: 100%;
+          justify-content: flex-start;
         }
 
         &.even-column {
-          padding-left: 26px;
           border-right: 1px solid #e5e5e5;
+          @media (min-width: 1024px) {
+            padding-left: 100px;
+          }
           @include mobiles {
             border: 0;
             padding: 0;

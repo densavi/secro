@@ -50,6 +50,7 @@
     font-size: 32px;
     line-height: 47px;
     position: relative;
+    font-weight: 500;
     @include tablets {
       font-size: 28px;
       line-height: 1.2;
@@ -250,6 +251,7 @@
     }
   }
   &__block {
+    line-height: 24px;
     &:not(:last-child) {
       margin-bottom: 90px;
       @include mobiles {

@@ -1,30 +1,24 @@
-import PiotrAvatar from '../../assets/images/company/advisors/piotr.png';
-import EdgarAvatar from '../../assets/images/company/advisors/edgar.png';
-import DamonAvatar from '../../assets/images/company/advisors/damon.png';
-import NickAvatar from '../../assets/images/company/advisors/nick.png';
-import SunilAvatar from '../../assets/images/company/advisors/sunil.png';
+
+import JeffAvatar from '../../assets/images/new/jeff.png';
+import SonaliAvatar from '../../assets/images/new/sonali.png';
+import MicheleAvatar from '../../assets/images/new/michele.png';
+import LukeAvatar from '../../assets/images/new/luke.png';
 
 export const advisors = [
   {
-    name: 'piotr',
-    avatar: PiotrAvatar,
-    link: 'https://www.polsteam.com/',
+    name: 'jeff',
+    avatar: JeffAvatar,
   },
   {
-    name: 'nick',
-    avatar: NickAvatar,
-    link: 'https://en.wikipedia.org/wiki/Plated_(meal_kits)',
+    name: 'sonali',
+    avatar: SonaliAvatar,
   },
   {
-    name: 'edgar',
-    avatar: EdgarAvatar,
+    name: 'michele',
+    avatar: MicheleAvatar,
   },
   {
-    name: 'sunil',
-    avatar: SunilAvatar,
-  },
-  {
-    name: 'damon',
-    avatar: DamonAvatar,
+    name: 'luke',
+    avatar: LukeAvatar,
   },
 ];

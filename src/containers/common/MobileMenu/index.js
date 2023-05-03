@@ -36,16 +36,16 @@ const MobileMenu = ({isHeaderLight, withHeaderOverlay, isOpenMenu}) => {
   const renderNav = useMemo(
     () =>
       headerLinks.map((link) => (
-        <li key={link.textId} className={styles.header__nav_item}>
+        <li key={link.textId} className={styles.MobileMenu__nav_item}>
           <NextLink href={link.href}>
             <a
               className={classNames(styles.header__nav_text, {
-                [styles.header__nav_text_common]: !isHeaderLight,
-                [styles.header__nav_text_light]: isHeaderLight,
-                [styles.header__nav_text_active]: asPath.includes(link.href),
-                [styles.header__nav_text_active_common]:
+                [styles.MobileMenu__nav_text_common]: !isHeaderLight,
+                [styles.MobileMenu__nav_text_light]: isHeaderLight,
+                [styles.MobileMenu__nav_text_active]: asPath.includes(link.href),
+                [styles.MobileMenu__nav_text_active_common]:
                   asPath.includes(link.href) && !isHeaderLight,
-                [styles.header__nav_text_active_light]:
+                [styles.MobileMenu__nav_text_active_light]:
                   asPath.includes(link.href) && isHeaderLight,
               })}>
               <FormattedMessage id={link.textId} />
