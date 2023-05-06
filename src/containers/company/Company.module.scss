@@ -42,14 +42,13 @@
     margin: auto;
     max-width: 671px;
     text-align: center;
-    line-height: 28px !important;
+    line-height: 24px !important;
     margin-bottom: 75px;
     @include mobiles {
       margin-bottom: 42px;
       text-align: left;
       padding: 0 15px;
       font-size: 16px;
-      line-height: 24px !important;
     }
   }
 
@@ -108,10 +107,9 @@
       font-size: 16px !important;
       font-weight: normal;
       color: $gray_2;
-      line-height: 26px !important;
+      line-height: 24px !important;
       @include mobiles {
         margin-top: 16px;
-        line-height: 24px !important;
       }
     }
 
@@ -153,7 +151,7 @@
       margin: 20px auto 88px 0;
       font-size: 16px !important;
       color: $gray_3;
-      line-height: 26px !important;
+      line-height: 24px !important;
       max-width: 536px;
       @include mobiles {
         margin-top: 16px;

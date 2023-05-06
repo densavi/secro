@@ -105,15 +105,12 @@
         &:before {
           content: '';
           position: absolute;
-          top: 7px;
+          top: 9px;
           left: 0;
           width: 6px;
           height: 6px;
           border-radius: 50%;
           background: #828282;
-        }
-        &:not(:last-child) {
-          margin-bottom: 5px;
         }
       }
     }
